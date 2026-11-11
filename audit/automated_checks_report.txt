@@ -45,9 +45,9 @@
 [INFO] performance_tracker.csv contains '-0.667' x1
 [INFO] performance_tracker.csv contains '0.667' x4
 [INFO] performance_tracker.csv rows = 25, cols = ['Subject', 'Topics_Completed', 'PYQs_Solved', 'MCQs_Solved', 'Accuracy', 'Weak_Areas', 'Revision_Status']
-[CHECK] notes_hindi_english.md :: '150 questions' x6 lines [6, 8, 765]
-[CHECK] notes_hindi_english.md :: 'no negative marking (2026 context)' x2 lines [6, 765]
-[CHECK] notes_hindi_english.md :: '150Q' x6 lines [6, 8, 765]
+[CHECK] notes_hindi_english.md :: '150 questions' x5 lines [6, 8]
+[CHECK] notes_hindi_english.md :: 'no negative marking (2026 context)' x1 lines [6]
+[CHECK] notes_hindi_english.md :: '150Q' x5 lines [6, 8]
 [CHECK] 01_Official_Syllabus_and_Pattern.md :: '150 questions' x3 lines [7, 47]
 [CHECK] 01_Official_Syllabus_and_Pattern.md :: '300 marks' x1 lines [7]
 [CHECK] 01_Official_Syllabus_and_Pattern.md :: 'no negative marking (2026 context)' x1 lines [22]
@@ -63,6 +63,3 @@
 [CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: '300 marks' x2 lines [19, 53]
 [CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: 'no negative marking (2026 context)' x1 lines [19]
 [CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: '150Q' x3 lines [19, 53]
-[CHECK] notes/13_general_english.md :: '150 questions' x1 lines [40]
-[CHECK] notes/13_general_english.md :: 'no negative marking (2026 context)' x1 lines [40]
-[CHECK] notes/13_general_english.md :: '150Q' x1 lines [40]

@@ -249,5 +249,5 @@ RSSB Advt 08/2026 summaries (Testbook, Schools360, GovtJobsAlert); RSSB press no
 
 ## Rollout progress — 11 Nov 2026 (batches 1–2 done)
 - **Batch 1 (bank): DONE** — remaining 240 bank explanations rewritten in the §4 format; all 300 bank rows now conform. **Batch 2 (mocks): DONE** — all 360 mock explanations rewritten. Automated checks re-run: **0 FAILs**; combined = per-subject CSVs in sync; 0 key-explanation mismatches. See register §L for the corrections found (incl. Neelkanth notes fix; P1 Q100/P2 Q103 date errors; B4 flags 2–3 refuted by PYQ dataset subtopics).
-- **Batch 3 (notes): 11 of 11 done** — Art & Culture, Geography of Rajasthan, Geo India, Polity, Economy, Reasoning/Maths, Current Affairs, Public Health, Computer, Hindi, English all redesigned to A–K and committed. History + Science notes still need their remaining topics beyond the sample chapters.
-- **Batch 4 (master notes + tracker): pending.**
+- **Batch 3 (notes): 11 of 11 done** — Art & Culture, Geography of Rajasthan, Geo India, Polity, Economy, Reasoning/Maths, Current Affairs, Public Health, Computer, Hindi, English all redesigned to A–K and committed. History + Science notes now also complete (9 + 19 chapters, sample chapters included).
+- **Batch 4 (master notes + tracker): DONE** — master notes redesigned (145 chapter blocks, same order as subject notes); tracker gains an "A-K redesigned" column (Yes on all 104 rows; student progress untouched). Rollout complete — see register §N.

@@ -200,9 +200,11 @@ Built on retrieval + spacing (§1.1–1.3). Re-reading is not a revision method.
 | Sample chapter 2: Science — Blood groups & transfusion | Done 11 Nov 2026 (pilot) | `samples/sample_07_science_blood_groups.md` |
 | Audit of both samples | Done 11 Nov 2026 | `samples/SAMPLE_AUDIT.md` |
 | MCQ explanation pilot: History (24) + Science (36) bank rows | Done 11 Nov 2026 (pilot) | `question_bank.csv`, `question_bank/01_history_rajasthan.csv`, `question_bank/07_everyday_science.csv` |
-| Rollout: remaining 11 subject notes to A–K structure | **Pending** — after sample audit | — |
-| Rollout: remaining 240 bank MCQs + 360 mock explanations to §4 format | **Pending** — after sample audit | — |
-| Rollout: master notes to A–K structure | **Pending** — after sample audit | — |
+| Rollout: remaining 11 subject notes to A–K structure | **Done 11 Nov 2026** — all 11 redesigned + parent-audited (register §L–M) | `notes/02`–`13` |
+| Rollout: remaining 240 bank MCQs + 360 mock explanations to §4 format | **Done 11 Nov 2026** — all 300 bank rows + all 360 mock explanations in §4 format, 0 keys changed, checks 0 FAILs (register §L) | `question_bank.csv`, `question_bank/*.csv`, `mock_papers.md` |
+| Rollout: master notes to A–K structure | **Done 11 Nov 2026** — condensed A–K-aligned master reference, 145 chapter blocks in subject-note order (register §N) | `notes_hindi_english.md` |
+| Rollout: History + Science remaining topics to A–K | **Done 11 Nov 2026** — History 9 chapters, Science 19 chapters, both include the audited sample chapters (register §N) | `notes/01_history_rajasthan.md`, `notes/07_everyday_science.md` |
+| Rollout: progress tracker updated | **Done 11 Nov 2026** — "A-K redesigned" = Yes on all 104 topic rows; student-progress columns unchanged (nothing pre-marked complete) | `study_progress_tracker.csv` |
 
 ## 9. References
 
