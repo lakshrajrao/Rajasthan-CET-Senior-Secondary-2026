@@ -8,6 +8,7 @@ Built 11 November 2026. Preparation window: 20 days, 5–6 hours/day. Notes in H
 ## Start here
 
 1. **`CHATGPT_STUDY_HANDOVER.md`** — read this first. It is the teaching handover for ChatGPT: 13 subjects, MCQ/PYQ IDs, teaching sequences, chapter tests, PDF checklist, and the exact first message to send.
+2. **`LEARNING_METHODOLOGY.md`** — the permanent learning standard (11 Nov 2026): evidence-based teaching system (retrieval + spacing), the A–K note structure, the mandatory MCQ explanation rule, visual rules and the revision schedule. Read this before teaching any topic.
 2. **`AUDIT_CORRECTION_REGISTER.md`** — every correction from the final QC (11 Nov 2026), every open gap, every unverified claim.
 3. **`AUDIT_BRIEF_FOR_CHATGPT.md`** — the original audit brief (pattern, OMR, cautions).
 4. **`00_Official_Syllabus_Verification.md`** — every syllabus head and OMR rule verified against the official notification extract.
@@ -22,6 +23,7 @@ Built 11 November 2026. Preparation window: 20 days, 5–6 hours/day. Notes in H
 - **PYQ research:** `research/pyq/` — inventory, 139-question classified dataset (sample only), per-subject analysis (2022 Feb 2023 + 2024 Oct 2024, Senior Secondary only)
 - **Mocks & plan:** `mock_papers.md` (3 × 120Q = 360 unique predicted questions, audit-corrected 11 Nov 2026), `study_plan_20day.md`, `performance_tracker.csv`, `study_progress_tracker.csv`
 - **Final QC (11 Nov 2026):** `AUDIT_CORRECTION_REGISTER.md`, `CHATGPT_STUDY_HANDOVER.md`, `audit/` (audit evidence + check/fix scripts)
+- **Learning methodology (11 Nov 2026, permanent standard):** `LEARNING_METHODOLOGY.md` + `samples/` (two audited pilot chapters: History — Integration of Rajasthan; Science — Blood groups & transfusion) + MCQ explanation pilot on 60 bank rows (History 24 + Science 36)
 - **Generators:** `gen.py`, `gen_qb.py`, `raj_pool.py`
 
 ## What is NOT in this repo

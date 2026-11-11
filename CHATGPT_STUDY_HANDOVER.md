@@ -24,7 +24,7 @@ A verified CET preparation database: official syllabus + exam pattern (verified 
 
 ## 3. How to teach (instructions for ChatGPT)
 
-1. **Read first:** `AUDIT_BRIEF_FOR_CHATGPT.md`, this file, `AUDIT_CORRECTION_REGISTER.md`, `00_Official_Syllabus_Verification.md`, `01_Official_Syllabus_and_Pattern.md`, `02_Exam_Pattern_and_Marking_Strategy.md`.
+1. **Read first:** `LEARNING_METHODOLOGY.md` (the permanent learning standard — read it before teaching any topic), `AUDIT_BRIEF_FOR_CHATGPT.md`, this file, `AUDIT_CORRECTION_REGISTER.md`, `00_Official_Syllabus_Verification.md`, `01_Official_Syllabus_and_Pattern.md`, `02_Exam_Pattern_and_Marking_Strategy.md`.
 2. **Teach one topic at a time**, in the suggested teaching sequence in §5 for each subject. Simple Hindi, English exam terms retained. Explain the concept, then the facts, then the exam traps (negative marking, E-rule, common confusions listed in the notes).
 3. **Use only the repo material for facts.** Where a topic is marked "needs additional verified research" (§5, and `AUDIT_CORRECTION_REGISTER.md` §G), research it from a primary or reputable source first (RSSB notification, NCERT, government sites, standard reference books) and say what the source is. **Never invent a fact, a frequency table, a weightage, a PYQ, or a source link.**
 4. **Generated vs PYQ — always say which is which.** The 300 bank MCQs and 360 mock questions are **generated (predicted), syllabus-based**. The 139 PYQ rows are **actual past-paper questions** (classification metadata only — the dataset has no question text). When you set a test, say how many questions are PYQ-based and how many are generated.
@@ -32,6 +32,15 @@ A verified CET preparation database: official syllabus + exam pattern (verified 
 6. **PDFs:** you create and send the actual topic-wise study PDFs **through the conversation** with the user. Do NOT generate duplicate PDFs in this repo. Use the repo Markdown (notes + this handover) as the source. Each PDF should cover one topic: concept, facts, tables, 10–15 practice questions with answers on the last page, and a "verify before exam" box for anything in §6.
 7. **Mocks:** Paper 1 on Day 11, Paper 2 on Day 15, Paper 3 on Day 18, full mock + OMR drill on Day 20 (see `study_plan_20day.md`). Score with the −2/3 rule and log in `performance_tracker.csv`. The mocks were audit-corrected on 11 Nov 2026 (see the register §B) — use the current repo version, not any earlier copy.
 8. **Before the exam (last week):** update Current Affairs after 11 Nov 2026 and re-check the items in §6.
+
+## 3A. Learning methodology — permanent standard (follow for every topic)
+
+`LEARNING_METHODOLOGY.md` is the permanent standard for all CET teaching in this repo. It is evidence-based (retrieval practice + spaced practice as the backbone; elaboration, dual coding, concrete examples, interleaving; mnemonics supplementary only — the research summary and the honest limits are in §1 of that file).
+
+- **Note structure (A–K):** every topic you teach follows it — (A) visual introduction, (B) story, (C) WHY, (D) HOW step by step, (E) one visual memory connection, (F) facts in compact tables, (G) common confusions side by side, (H) at most one mnemonic, (I) CET exam connection (PYQs vs generated, always distinguished), (J) active recall questions answered from memory, (K) one-page revision summary. **Never skip F, G, I, J or K.** Study the two audited pilot chapters first — `samples/sample_01_history_integration_of_rajasthan.md` (History) and `samples/sample_07_science_blood_groups.md` (Science) — and copy their format.
+- **MCQ explanations (§4 of the methodology, mandatory):** every explanation must give (1) the correct answer, (2) WHY it is correct, (3) WHY the other options are wrong, (4) the underlying concept, (5) a memorable connection, (6) a source reference. Never an answer key alone. The History (24) and Science (36) bank rows already follow this format — use them as the model. If no honest memory connection exists, write "—" rather than inventing one. If the honest answer is "this is a definition/convention", say so.
+- **Revision system:** after each topic, run the schedule in the methodology §6 — immediate recall, same-day recall, next-day recall + redraw the diagram from memory, 3-day mixed recall, 7-day timed chapter test. Log forgotten facts, misunderstood concepts and repeated errors in the tracker; prioritise weak topics. **Re-reading is not revision** — every revision session must contain retrieval.
+- **Accuracy before storytelling:** never invent a causal explanation to make a fact memorable; never overload a topic with mnemonics (maximum one); a plain table that is tested beats a pretty page that is only read.
 
 ## 4. Repository map (exact paths)
 
@@ -242,7 +251,7 @@ A verified CET preparation database: official syllabus + exam pattern (verified 
 When the user pastes this repo link into ChatGPT, the first message should be:
 
 > "This is my Rajasthan CET Senior Secondary 2026 preparation repo: https://github.com/lakshrajrao/Rajasthan-CET-Senior-Secondary-2026
-> Read AUDIT_BRIEF_FOR_CHATGPT.md and CHATGPT_STUDY_HANDOVER.md first, then teach me one topic at a time in simple Hindi (English exam terms retained), following the teaching sequence in the handover. Use only the repo material for facts. Where the handover says a topic needs additional verified research, research it from a primary or reputable source first and tell me the source. Never present generated questions as PYQs. After each topic, give me a 10–15 question chapter test from the listed MCQ IDs, mark it, explain my mistakes, update the progress tracker, and prepare a topic-wise PDF for me in this conversation."
+> Read LEARNING_METHODOLOGY.md, AUDIT_BRIEF_FOR_CHATGPT.md and CHATGPT_STUDY_HANDOVER.md first, then teach me one topic at a time in simple Hindi (English exam terms retained), following the A–K structure in LEARNING_METHODOLOGY.md and the teaching sequence in the handover. Use only the repo material for facts. Where the handover says a topic needs additional verified research, research it from a primary or reputable source first and tell me the source. Never present generated questions as PYQs. After each topic, give me a 10–15 question chapter test from the listed MCQ IDs, mark it, explain my mistakes, update the progress tracker, and prepare a topic-wise PDF for me in this conversation."
 
 ## 9. What ChatGPT must NOT do
 
@@ -251,4 +260,5 @@ When the user pastes this repo link into ChatGPT, the first message should be:
 - Do not teach Ras/Chhand/Alankar, Trigonometry, Algebra, Logarithms, Internet, E-mail, Cyber-security or AI as 12th-level syllabus — they are Graduation-level (the EXTRA-tagged items are low-priority awareness only).
 - Do not change the verified exam pattern (120Q/240/150 min, −2/3, E/blank rules) without primary-source evidence.
 - Do not mark tracker rows complete without the work having happened.
+- Do not teach from the old "read and memorise" pattern — follow `LEARNING_METHODOLOGY.md` (A–K structure, retrieval-based revision, §4 MCQ explanations). Do not invent causal explanations or overload topics with mnemonics.
 - Do not generate duplicate PDFs in the repo — PDFs are created and sent in the conversation.

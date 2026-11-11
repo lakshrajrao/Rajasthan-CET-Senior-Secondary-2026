@@ -31,6 +31,8 @@
 | [question_bank/01_history_rajasthan.csv](question_bank/01_history_rajasthan.csv) … [question_bank/13_general_english.csv](question_bank/13_general_english.csv) | Per-subject CSVs (14 files; area 8 split into Maths + Reasoning) |
 | [gen_qb.py](gen_qb.py) | Generator script (reproducible; re-running rebuilds all CSVs identically) |
 | [AUDIT_CORRECTION_REGISTER.md](AUDIT_CORRECTION_REGISTER.md) | **Final QC 11 Nov 2026:** every correction (file/line, problem, fix, evidence, status), open gaps, unverified claims |
+| [LEARNING_METHODOLOGY.md](LEARNING_METHODOLOGY.md) | **Permanent standard (11 Nov 2026):** evidence-based learning system — retrieval + spacing, A–K note structure, MCQ explanation rule, visual rules, revision schedule |
+| [samples/](samples/) | **Pilot samples (11 Nov 2026):** `sample_01_history_integration_of_rajasthan.md`, `sample_07_science_blood_groups.md`, `SAMPLE_AUDIT.md` (both audited PASS) |
 | [CHATGPT_STUDY_HANDOVER.md](CHATGPT_STUDY_HANDOVER.md) | **Final QC 11 Nov 2026:** teaching handover for ChatGPT — 13 subjects, MCQ/PYQ IDs, teaching sequences, chapter tests, PDF checklist |
 | [study_progress_tracker.csv](study_progress_tracker.csv) | **Final QC 11 Nov 2026:** topic-level tracker, 104 topics (63 verified / 32 gaps / 9 partial; nothing pre-marked complete) |
 | [mock_papers.md](mock_papers.md) | **3 mock papers × 120Q = 360 generated questions** (audit-corrected 11 Nov 2026 — see register §B) |
@@ -238,3 +240,9 @@ RSSB Advt 08/2026 summaries (Testbook, Schools360, GovtJobsAlert); RSSB press no
 - **New in this phase:** `AUDIT_CORRECTION_REGISTER.md`, `CHATGPT_STUDY_HANDOVER.md`, `study_progress_tracker.csv` (104 topics), `audit/` evidence folder, and this index's gap rows above.
 - **Still open:** 16 coverage gaps (register §G — Public Health core is the biggest), 14 unverified claim groups (register §H), RSSB live-site check failed (register §I1), Current Affairs after 11 Nov 2026 needs a pre-exam update.
 - **Teaching handover:** give ChatGPT the repo link + `CHATGPT_STUDY_HANDOVER.md` §8. ChatGPT creates the topic-wise PDFs in conversation — no duplicate PDFs in this repo.
+
+## Learning methodology — permanent standard (11 Nov 2026)
+- **`LEARNING_METHODOLOGY.md`** is now the permanent standard for all CET learning material: evidence-based (retrieval practice + spaced practice as the backbone; elaboration, dual coding, concrete examples, interleaving; mnemonics supplementary only — see the research summary in §1). Every topic follows the A–K structure (visual intro → story → WHY → HOW → visual memory → facts table → confusions → one mnemonic → exam connection → active recall → revision summary). Every MCQ explanation must carry: WHY correct, WHY others wrong, concept, memory connection, source.
+- **Pilot samples (audited PASS, see `samples/SAMPLE_AUDIT.md`):** History — Integration of Rajasthan; Science — Blood groups & transfusion. Both follow A–K; both fact-checked against sources; two minor issues found and fixed in the audit.
+- **MCQ pilot (60 rows, new §4 format):** all 24 History + all 36 Science bank rows rewritten with WHY-correct / WHY-others-wrong / concept / memory connection / source. Automated checks re-run after the pilot: **0 FAILs**; combined = per-subject CSVs still in sync.
+- **Still pending (rollout after sample audit):** remaining 11 subject notes to A–K structure; remaining 240 bank MCQs + 360 mock explanations to the §4 format; master notes to A–K structure. Recorded in `LEARNING_METHODOLOGY.md` §8.
