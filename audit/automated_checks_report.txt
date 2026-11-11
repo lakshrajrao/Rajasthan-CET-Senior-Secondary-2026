@@ -1,0 +1,68 @@
+[INFO] question_bank.csv rows = 300 (expect 300)
+[INFO] question_bank.csv columns = ['qid', 'question', 'option_a', 'option_b', 'option_c', 'option_d', 'option_e', 'correct_answer', 'explanation', 'topic', 'subtopic', 'difficulty', 'source']
+[INFO] question_bank.csv answer distribution = {'A': 75, 'B': 72, 'C': 75, 'D': 78}
+[PASS] answers outside A-D: 0
+[PASS] rows missing question/options/answer: 0
+[PASS] duplicate IDs in question_bank.csv: []
+[PASS] duplicate question texts in question_bank.csv: 0
+[INFO] rows with an option_e field filled: 300 (E must never be a correct answer option)
+[INFO] provenance values = {'Generated — syllabus-based': 300}
+[INFO] combined bank per-subject counts = {'Art & Culture': 20, 'Computer Knowledge': 18, 'Current Affairs': 18, 'Economy of Rajasthan': 18, 'Everyday Science': 36, 'General English': 20, 'General Hindi': 20, 'Geography of India': 20, 'Geography of Rajasthan': 22, 'History of Rajasthan': 24, 'Logical Reasoning': 24, 'Mathematics': 24, 'Polity': 22, 'Public Health': 14}
+[INFO] 01_history_rajasthan.csv: 24 rows, answers {'A': 9, 'B': 4, 'C': 5, 'D': 6}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 02_art_culture_rajasthan.csv: 20 rows, answers {'A': 2, 'B': 9, 'C': 5, 'D': 4}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 03_geography_india.csv: 20 rows, answers {'A': 6, 'B': 3, 'C': 3, 'D': 8}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 04_geography_rajasthan.csv: 22 rows, answers {'A': 8, 'B': 5, 'C': 7, 'D': 2}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 05_polity_rajasthan.csv: 22 rows, answers {'A': 4, 'B': 3, 'C': 5, 'D': 10}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 06_economy_rajasthan.csv: 18 rows, answers {'A': 3, 'B': 4, 'C': 8, 'D': 3}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 07_everyday_science.csv: 36 rows, answers {'A': 10, 'B': 7, 'C': 8, 'D': 11}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 08_mathematics.csv: 24 rows, answers {'A': 6, 'B': 9, 'C': 4, 'D': 5}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 08_reasoning.csv: 24 rows, answers {'A': 6, 'B': 4, 'C': 5, 'D': 9}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 09_current_affairs.csv: 18 rows, answers {'A': 3, 'B': 2, 'C': 8, 'D': 5}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 10_public_health.csv: 14 rows, answers {'A': 5, 'B': 3, 'C': 5, 'D': 1}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 11_computer_knowledge.csv: 18 rows, answers {'A': 2, 'B': 9, 'C': 4, 'D': 3}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 12_general_hindi.csv: 20 rows, answers {'A': 6, 'B': 5, 'C': 5, 'D': 4}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] 13_general_english.csv: 20 rows, answers {'A': 5, 'B': 5, 'C': 3, 'D': 7}, E/bad answers 0, dup texts 0, EXTRA-tagged 0
+[INFO] per-subject CSV total = 300 (expect 300)
+[PASS] combined vs per-subject text mismatch: only-combined 0, only-subject 0
+[INFO] pyq_dataset.csv rows = 139 (expect 139)
+[INFO] pyq columns = ['Year', 'Shift', 'Question_ID', 'Subject', 'Topic', 'Subtopic', 'Question_Type', 'Difficulty', 'Correct_Answer', 'Source']
+[INFO] PYQ per-subject = {'Computer Knowledge': 5, 'Current Affairs': 16, 'Economy of Rajasthan': 6, 'Everyday Science': 20, 'General English': 10, 'General Hindi': 20, 'Geography of India': 6, 'Geography of Rajasthan': 2, 'Indian Political System with reference to Rajasthan': 5, 'Logical Reasoning and Maths': 35, 'Rajasthan History Art and Culture': 14}
+[INFO] PYQ per-paper/shift = {'2023-11Feb-S2 (11 Feb PM)': 19, '2024-P1 (22 Oct AM)': 30, '2024-P2 (22 Oct PM)': 30, '2024-P3 (23 Oct AM)': 30, '2024-P4 (23 Oct PM)': 30}
+[INFO] PYQ difficulty = {'Easy': 63, 'Hard': 17, 'Medium': 59}
+[PASS] duplicate PYQ IDs: 0
+[INFO] duplicate PYQ question texts: 0
+[INFO] inventory mentions 'full paper' claim check: True
+[INFO] mock_papers.md Q-heading matches = 720 (expect 360)
+[INFO] mock paper section headings found: ['# PAPER 1 — HISTORICAL-TREND ORIENTED', '# PAPER 2 — BALANCED SYLLABUS COVERAGE', '# PAPER 3 — CHALLENGING / UNEXPECTED']
+[INFO] answer-key style lines found = 0
+[INFO] Mock Paper 1: Q headings = 240, max Q no = 120
+[INFO] Mock Paper 2: Q headings = 240, max Q no = 120
+[INFO] Mock Paper 3: Q headings = 240, max Q no = 120
+[PASS] duplicate mock question stems: 0
+[PASS] mock stems also in question bank: 0
+[INFO] performance_tracker.csv contains '1/3' x1
+[INFO] performance_tracker.csv contains '-2/3' x1
+[INFO] performance_tracker.csv contains '-0.667' x1
+[INFO] performance_tracker.csv contains '0.667' x4
+[INFO] performance_tracker.csv rows = 25, cols = ['Subject', 'Topics_Completed', 'PYQs_Solved', 'MCQs_Solved', 'Accuracy', 'Weak_Areas', 'Revision_Status']
+[CHECK] notes_hindi_english.md :: '150 questions' x6 lines [5, 7, 764]
+[CHECK] notes_hindi_english.md :: 'no negative marking (2026 context)' x2 lines [5, 764]
+[CHECK] notes_hindi_english.md :: '150Q' x6 lines [5, 7, 764]
+[CHECK] 01_Official_Syllabus_and_Pattern.md :: '150 questions' x3 lines [7, 47]
+[CHECK] 01_Official_Syllabus_and_Pattern.md :: '300 marks' x1 lines [7]
+[CHECK] 01_Official_Syllabus_and_Pattern.md :: 'no negative marking (2026 context)' x1 lines [22]
+[CHECK] 01_Official_Syllabus_and_Pattern.md :: '150Q' x3 lines [7, 47]
+[CHECK] mock_papers.md :: 'official weightage' x1 lines [7]
+[CHECK] INDEX.md :: '150 questions' x2 lines [10]
+[CHECK] INDEX.md :: 'no negative marking (2026 context)' x1 lines [10]
+[CHECK] INDEX.md :: 'official weightage' x1 lines [205]
+[CHECK] INDEX.md :: '150Q' x2 lines [10]
+[CHECK] README.md :: '150 questions' x1 lines [29]
+[CHECK] README.md :: '150Q' x1 lines [29]
+[CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: '150 questions' x3 lines [19, 53]
+[CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: '300 marks' x2 lines [19, 53]
+[CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: 'no negative marking (2026 context)' x1 lines [19]
+[CHECK] AUDIT_BRIEF_FOR_CHATGPT.md :: '150Q' x3 lines [19, 53]
+[CHECK] notes/13_general_english.md :: '150 questions' x1 lines [40]
+[CHECK] notes/13_general_english.md :: 'no negative marking (2026 context)' x1 lines [40]
+[CHECK] notes/13_general_english.md :: '150Q' x1 lines [40]

@@ -44,7 +44,7 @@
 - **Koyla:** Jharia (Jharkhand) — sabse bada koyla kshetra; **Korba, Talcher**.
 - **Loha (Iron ore):** Odisha, Chhattisgarh, Karnataka (Bailadila, Kudremukh).
 - **Bauxite:** Odisha (Koraput); **Mica:** Jharkhand/Bihar; **Petroleum:** Bombay High, Digboi (Assam — sabse purani refinery).
-- **Railway:** 16 zones (2026 tak); pehli rail 1853 Mumbai–Thane.
+- **Railway:** **18 zones** (South Coast Railway, Visakhapatnam — 18th zone, operational 1 June 2026, Gazette 4 May 2026); pehli rail 1853 Mumbai–Thane.
 - **National Highways:** NH-44 sabse lamba (Srinagar–Kanyakumari, ~3,745 km).
 - **Ports:** Kandla (Deendayal), Mumbai, Chennai, Kolkata, Visakhapatnam.
 

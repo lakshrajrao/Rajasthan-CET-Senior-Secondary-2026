@@ -7,6 +7,8 @@
 > **ALL 360 questions are PREDICTED / GENERATED for practice — NOT actual PYQs.** No question is claimed to be from a real CET paper. No question is repeated across the three papers (verified: 360 unique questions). The subject split below is **reported/derived only; the official scheme gives NO per-subject split** — do not treat it as official weightage.
 >
 > **How to use:** Sit each paper in one 150-minute sitting, use a printed OMR-style sheet, darken **E** for every question you deliberately skip, **never leave a circle blank**, then score with Score = (Correct×2) − (Incorrect×2/3) − (Blank×2/3). E responses count as neither correct nor incorrect. Log the result in `performance_tracker.csv`.
+>
+> **Audit 11 Nov 2026 (final QC):** 5 wrong keys, 13 wrong explanations, 4 ambiguous wordings and 3 out-of-syllabus questions were found and corrected in this file — see `AUDIT_CORRECTION_REGISTER.md`. Questions tagged **[EXTRA]** are Graduation-level / PYQ-awareness only, not 12th-level syllabus. Note: ~39 mock questions test the same facts as the 300-MCQ question bank — kept deliberately as revision overlap (same fact, usually a different angle); the full list is in `audit/mock_audit_findings.md`.
 
 ## Contents
 - Paper 1 — Historical-trend oriented (Raj GK heavy in style, but ALL subjects covered)
@@ -99,7 +101,7 @@
    (D) Golgi body
    (E) E. Unanswered / अनुत्तरित
 
-**Q10. [Hindi: Sarvanam | Medium]** 'जो पढ़ेगा, वह सफल होगा।' — सर्वनाम है —
+**Q10. [Hindi: Sarvanam | Medium]** 'जो पढ़ेगा, वह सफल होगा।' — 'जो' किस प्रकार का सर्वनाम है? —
 
    (A) सफल
    (B) पढ़ेगा
@@ -435,7 +437,7 @@
    (D) A positive
    (E) E. Unanswered / अनुत्तरित
 
-**Q52. [Computer | Easy]** The full form of WWW is — / WWW का पूरा नाम है —
+**Q52. [Computer | Easy] [EXTRA — Internet topic, NOT in 2026 12th syllabus; PYQ-style awareness only]** The full form of WWW is — / WWW का पूरा नाम है —
 
    (A) Wide World Web
    (B) Web World Wide
@@ -467,7 +469,7 @@
    (D) ₹5 lakh
    (E) E. Unanswered / अनुत्तरित
 
-**Q56. [Computer | Easy]** The full form of E-mail is — / E-mail का पूरा नाम है —
+**Q56. [Computer | Easy] [EXTRA — E-mail topic, NOT in 2026 12th syllabus; PYQ-style awareness only]** The full form of E-mail is — / E-mail का पूरा नाम है —
 
    (A) Electronic Mail
    (B) Electric Mail
@@ -667,10 +669,10 @@
    (D) पृथ्वी
    (E) E. Unanswered / अनुत्तरित
 
-**Q81. [Geo India | Easy]** Which is the highest peak in India? / भारत की सबसे ऊँची चोटी है —
+**Q81. [Geo India | Easy]** Which is the highest peak located within India's undisputed territory? / भारत की निर्विवाद सीमा के भीतर सबसे ऊँची चोटी है —
 
    (A) Nanda Devi
-   (B) Kangchenjunga (K2 is in PoK, claimed)
+   (B) Kangchenjunga (8,586 m, Sikkim)
    (C) Anamudi
    (D) Mount Everest
    (E) E. Unanswered / अनुत्तरित
@@ -710,7 +712,7 @@
 **Q86. [English: Articles | Easy]** Choose the correct article: ___ honest man
 
    (A) An
-   (B) The (only)
+   (B) The
    (C) A
    (D) No article
    (E) E. Unanswered / अनुत्तरित
@@ -934,7 +936,7 @@
 **Q114. [Raj: Forts | Easy]** Which district is Junagarh Fort located in? / Junagarh Fort किस जिले में स्थित है?
 
    (A) Bikaner
-   (B) Bikaner
+   (B) Jodhpur
    (C) Udaipur
    (D) Kota
    (E) E. Unanswered / अनुत्तरित
@@ -959,7 +961,7 @@
 
    (A) Tigress
    (B) Liones
-   (C) She-lion (not standard)
+   (C) She-lion
    (D) Lioness
    (E) E. Unanswered / अनुत्तरित
 
@@ -1048,7 +1050,7 @@
 
 **Q12. Answer D** — SI = P×R×T/100 = 2500×8×3/100 = ₹600.
 
-**Q13. Answer C** — Built by Anaji Chauhan (Arnoraj); Daulat Bagh by Jahangir
+**Q13. Answer C** — Ana Sagar Lake is in Ajmer (built by Anaji/Arnoraja Chauhan; Daulat Bagh added by Jahangir).
 
 **Q14. Answer B** — North 5 km and south 5 km cancel; only 3 km east remains.
 
@@ -1122,19 +1124,19 @@
 
 **Q49. Answer A** — Thar = Marusthali, ~60% in Rajasthan; Luni is its main river.
 
-**Q50. Answer A** — Living fort; golden sandstone; UNESCO Hill Forts
+**Q50. Answer A** — Jaisalmer Fort was founded by Rawal Jaisal in 1156; a living fort of golden sandstone, among the UNESCO Hill Forts of Rajasthan.
 
 **Q51. Answer B** — O– — universal donor; AB+ — universal recipient.
 
-**Q52. Answer D** — WWW — World Wide Web (Tim Berners-Lee, 1989).
+**Q52. Answer D** — WWW — World Wide Web (Tim Berners-Lee, 1989). [EXTRA topic — see header tag.]
 
 **Q53. Answer D** — Khejarli 1730 — 363 Bishnois led by Amrita Devi saved Khejri trees; origin of Chipko ethos.
 
 **Q54. Answer D** — PM-KISAN (2019) — ₹6,000/year in 3 instalments of ₹2,000 to eligible farmers.
 
-**Q55. Answer B** — Chiranjeevi (2021) — ₹25 lakh cover; renamed Mukhyamantri Ayushman Arogya Yojana (2024). Verify current name/limit.
+**Q55. Answer B** — Chiranjeevi (2021) — cover raised to ₹25 lakh per family per year (2023); renamed Mukhyamantri Ayushman Arogya Yojana (2024). (Current limit — re-check before the exam; see audit register.)
 
-**Q56. Answer A** — E-mail — Electronic Mail.
+**Q56. Answer A** — E-mail — Electronic Mail. [EXTRA topic — see header tag.]
 
 **Q57. Answer B** — Pratibha Patil — first woman Governor of Rajasthan (2004–2007); later President (2007–12).
 
@@ -1142,7 +1144,7 @@
 
 **Q59. Answer A** — हिन्दी — देवनागरी; पंजाबी — गुरुमुखी; बंगाली — बंगाली लिपि.
 
-**Q60. Answer A** — Second-longest wall in world after Great Wall (~36 km); birthplace of Maharana Pratap
+**Q60. Answer A** — Kumbhalgarh Fort was built by Maharana Kumbha in the 15th century (c. 1443–1458); its ~36 km wall is commonly described as the second-longest in the world after the Great Wall; Maharana Pratap was born there (1540).
 
 **Q61. Answer C** — Chang (daff) instrument, men dance at Holi
 
@@ -1170,7 +1172,7 @@
 
 **Q73. Answer C** — Doctor works in hospital; teacher works in school.
 
-**Q74. Answer B** — Jaisalmer — largest by area (~38,401 sq km); Dholpur smallest (before 2023 changes).
+**Q74. Answer B** — Jaisalmer — largest by area (~38,401 sq km); Dholpur smallest (33 districts after the Dec 2024 reorganisation — re-check the current list before the exam).
 
 **Q75. Answer C** — Barometer; thermometer — temperature; hygrometer — humidity; ammeter — current.
 
@@ -1325,7 +1327,7 @@
    (D) पंकज
    (E) E. Unanswered / अनुत्तरित
 
-**Q7. [Geo India | Easy]** The 'Bhakti' — no: Bhakra Dam is on which river? / भाखड़ा बांध किस नदी पर है?
+**Q7. [Geo India | Easy]** Bhakra Dam is on which river? / भाखड़ा बांध किस नदी पर है?
 
    (A) Sutlej
    (B) Beas
@@ -1569,7 +1571,7 @@
 
    (A) Kota
    (B) Bikaner
-   (C) Udaipur (Salumbar)
+   (C) Salumbar (formerly Udaipur district)
    (D) Jhalawar
    (E) E. Unanswered / अनुत्तरित
 
@@ -1641,7 +1643,7 @@
 
    (A) असत्य
    (B) न्याय
-   (C) झूठ (synonym of असत्य, but standard antonym is असत्य)
+   (C) सुंदर
    (D) सही
    (E) E. Unanswered / अनुत्तरित
 
@@ -1649,7 +1651,7 @@
 
    (A) 19
    (B) 32
-   (C) 22
+   (C) 22.5
    (D) 27
    (E) E. Unanswered / अनुत्तरित
 
@@ -1669,7 +1671,7 @@
    (D) 5.65 crore
    (E) E. Unanswered / अनुत्तरित
 
-**Q50. [Maths: SI | Easy]** Simple Interest on ₹1200 at 12% p.a. for 1 years is — / ₹1200 पर 12% वार्षिक दर से 1 वर्ष का साधारण ब्याज है —
+**Q50. [Maths: SI | Easy]** Simple Interest on ₹1200 at 12% p.a. for 1 year is — / ₹1200 पर 12% वार्षिक दर से 1 वर्ष का साधारण ब्याज है —
 
    (A) 144
    (B) 194
@@ -1885,7 +1887,7 @@
    (D) Satpura
    (E) E. Unanswered / अनुत्तरित
 
-**Q77. [Maths: SI | Easy]** Simple Interest on ₹900 at 20% p.a. for 1 years is — / ₹900 पर 20% वार्षिक दर से 1 वर्ष का साधारण ब्याज है —
+**Q77. [Maths: SI | Easy]** Simple Interest on ₹900 at 20% p.a. for 1 year is — / ₹900 पर 20% वार्षिक दर से 1 वर्ष का साधारण ब्याज है —
 
    (A) 180
    (B) 140
@@ -2069,7 +2071,7 @@
    (D) Anaemia
    (E) E. Unanswered / अनुत्तरित
 
-**Q100. [Reasoning: Coding | Medium]** If CAT = 24 (C=3,A=1,T=20; sum ×? — CAT letters sum=24), then DOG = ? (D=4,O=15,G=7)
+**Q100. [Reasoning: Coding | Medium]** If CAT = 24 (C=3,A=1,T=20; letters sum to 24), then DOG = ? (D=4,O=15,G=7)
 
    (A) 24
    (B) 30
@@ -2144,7 +2146,7 @@
 **Q109. [Maths: Average | Easy]** Average of 30 and 45 is — / 30 और 45 का औसत है —
 
    (A) 47
-   (B) 37
+   (B) 37.5
    (C) 34
    (D) 42
    (E) E. Unanswered / अनुत्तरित
@@ -2304,7 +2306,7 @@
 
 **Q15. Answer C** — SI = P×R×T/100 = 2200×6×2/100 = ₹264.
 
-**Q16. Answer B** — Battle of Khanwa 1527 vs Babur; united Rajput confederacy
+**Q16. Answer B** — Rana Sanga ruled Mewar 1508–1528; he fought Babur at Khanwa (1527) leading a Rajput confederacy.
 
 **Q17. Answer C** — Founded Jodhpur 1459; built Mehrangarh
 
@@ -2366,7 +2368,7 @@
 
 **Q46. Answer A** — सत्य — असत्य (standard pair).
 
-**Q47. Answer C** — Average = (18+27)/2 = 22.
+**Q47. Answer C** — Average = (18+27)/2 = 45/2 = 22.5.
 
 **Q48. Answer B** — 3×10^8 m/s (299,792,458 m/s).
 
@@ -2374,9 +2376,9 @@
 
 **Q50. Answer A** — SI = P×R×T/100 = 1200×12×1/100 = ₹144.
 
-**Q51. Answer C** — Flows through Banswara/Dungarpur; Mahi Bajaj Sagar Dam
+**Q51. Answer C** — The Mahi flows through MP, Rajasthan and Gujarat and empties into the Gulf of Khambhat (an inlet of the Arabian Sea) — hence 'Gulf of Khambhat', not 'Arabian Sea directly'.
 
-**Q52. Answer A** — Sacred lake; Brahma temple nearby; Pushkar Fair (Kartik Purnima)
+**Q52. Answer A** — Pushkar Lake is in Ajmer district; sacred lake with the Brahma temple nearby and the Kartik Purnima Pushkar Fair.
 
 **Q53. Answer A** — Jupiter — largest; Saturn has prominent rings.
 
@@ -2422,7 +2424,7 @@
 
 **Q74. Answer D** — Literacy 2011 — 66.1% (India 73.0%); Kota highest, Jalore lowest district.
 
-**Q75. Answer B** — Founded Udaipur 1559; shifted capital from Chittorgarh after 1567 siege by Akbar
+**Q75. Answer B** — Udai Singh II ruled Mewar 1540–1572; he founded Udaipur (1559) and shifted the capital from Chittorgarh after Akbar's 1567–68 siege.
 
 **Q76. Answer C** — Western Ghats = Sahyadri; UNESCO World Heritage (2012); Anamudi is highest peak (2,695 m).
 
@@ -2434,7 +2436,7 @@
 
 **Q80. Answer C** — Squares: 1²,2²,3²,4²,5²,6²=36.
 
-**Q81. Answer A** — Flows through Gujarat; short course in Rajasthan
+**Q81. Answer A** — The Sabarmati (short course in Rajasthan, then Gujarat) empties into the Gulf of Khambhat — hence 'Gulf of Khambhat', not 'Arabian Sea directly'.
 
 **Q82. Answer D** — West Bengal — largest rice producer; Punjab — highest productivity/yield.
 
@@ -2446,11 +2448,11 @@
 
 **Q86. Answer A** — Chilika — Odisha; largest brackish-water lagoon in India; Ramsar site; Irrawaddy dolphins.
 
-**Q87. Answer B** — Flows through Jhalawar-Kota; Jhalrapatan
+**Q87. Answer B** — The Kali Sindh (origin Dewas, MP; flows through Jhalawar-Kota) joins the Chambal in Rajasthan.
 
 **Q88. Answer D** — Sex ratio 2011 — 928; child sex ratio 888; literacy 66.1%.
 
-**Q89. Answer D** — Chittorgarh Fort is in Chittorgarh. Largest fort in India; Vijay Stambh; Jauhar of Rani Padmini (1303) & Rani Karnavati (1535)
+**Q89. Answer D** — Chittorgarh Fort is in Chittorgarh district; India's largest fort, site of the Vijay Stambh; jauhar of 1535 under Rani Karnavati. (The 1303 'Rani Padmini' story is from Jayasi's Padmavat legend, not verified history.)
 
 **Q90. Answer C** — Na2CO3·10H2O — washing soda.
 
@@ -2490,7 +2492,7 @@
 
 **Q108. Answer C** — Abandon — leave, forsake, desert.
 
-**Q109. Answer B** — Average = (30+45)/2 = 37.
+**Q109. Answer B** — Average = (30+45)/2 = 75/2 = 37.5.
 
 **Q110. Answer A** — JSY (2005, under NRHM) — cash incentive for institutional delivery to reduce maternal & neonatal mortality.
 
@@ -2551,10 +2553,10 @@
    (D) नृप
    (E) E. Unanswered / अनुत्तरित
 
-**Q4. [Geo India | Hard]** The 'Silk Route' — no: India's largest port by cargo is — / भारत का सबसे बड़ा बंदरगाह (माल ढुलाई) है —
+**Q4. [Geo India | Hard]** India's largest major port by cargo handled is — / भारत का सबसे बड़ा बंदरगाह (माल ढुलाई) है —
 
    (A) Paradip
-   (B) Jawaharlal Nehru Port (Nhava Sheva) / Deendayal (Kandla) — varies by year
+   (B) Jawaharlal Nehru Port (Nhava Sheva)
    (C) Chennai
    (D) Kochi
    (E) E. Unanswered / अनुत्तरित
@@ -2655,7 +2657,7 @@
    (D) 2023
    (E) E. Unanswered / अनुत्तरित
 
-**Q17. [English: Spelling | Medium]** Choose the correctly spelt word — (2):
+**Q17. [English: Spelling | Medium]** Choose the correctly spelt word — (1):
 
    (A) Seprate
    (B) Separate
@@ -2695,7 +2697,7 @@
    (D) Jhalawar
    (E) E. Unanswered / अनुत्तरित
 
-**Q22. [Maths: SI | Easy]** Simple Interest on ₹4000 at 10% p.a. for 1 years is — / ₹4000 पर 10% वार्षिक दर से 1 वर्ष का साधारण ब्याज है —
+**Q22. [Maths: SI | Easy]** Simple Interest on ₹4000 at 10% p.a. for 1 year is — / ₹4000 पर 10% वार्षिक दर से 1 वर्ष का साधारण ब्याज है —
 
    (A) 450
    (B) 360
@@ -3228,7 +3230,7 @@
    (A) It is a tributary of the Narmada
    (B) It flows only in Gujarat
    (C) It originates in the Himalayas and forms a delta
-   (D) Longest river of Rajasthan; Kota, Rawatbhata atomic power, Chambal ravines
+   (D) Longest river (by total course) of Rajasthan; Kota, Rawatbhata atomic power, Chambal ravines
    (E) E. Unanswered / अनुत्तरित
 
 **Q89. [Geo India | Easy]** Which state has the longest coastline in India? / भारत में सबसे लंबी तटरेखा वाला राज्य है —
@@ -3263,7 +3265,7 @@
    (D) 290
    (E) E. Unanswered / अनुत्तरित
 
-**Q93. [English: Spelling | Medium]** Choose the correctly spelt word:
+**Q93. [English: Spelling | Medium]** Choose the correctly spelt word — (2):
 
    (A) Occurence
    (B) Occurrence
@@ -3321,7 +3323,7 @@
 
 **Q100. [Maths: Average | Easy]** Average of 50 and 75 is — / 50 और 75 का औसत है —
 
-   (A) 62
+   (A) 62.5
    (B) 67
    (C) 59
    (D) 72
@@ -3447,7 +3449,7 @@
    (D) Third Battle of Panipat 1761
    (E) E. Unanswered / अनुत्तरित
 
-**Q116. [Computer | Easy]** An email address must contain — / ईमेल पते में क्या होना आवश्यक है?
+**Q116. [Computer | Easy] [EXTRA — E-mail topic, NOT in 2026 12th syllabus; PYQ-style awareness only]** An email address must contain — / ईमेल पते में क्या होना आवश्यक है?
 
    (A) % symbol
    (B) @ symbol
@@ -3491,7 +3493,7 @@
 
 | Q | Ans | Q | Ans | Q | Ans | Q | Ans |
 |---|---|---|---|---|---|---|---|
-| 1 | **A** | 2 | **C** | 3 | **D** | 4 | **B** |
+| 1 | **A** | 2 | **C** | 3 | **D** | 4 | **A** |
 | 5 | **B** | 6 | **B** | 7 | **D** | 8 | **D** |
 | 9 | **D** | 10 | **C** | 11 | **A** | 12 | **D** |
 | 13 | **B** | 14 | **D** | 15 | **A** | 16 | **D** |
@@ -3530,7 +3532,7 @@
 
 **Q3. Answer D** — राजा — नृप, भूप, नरेश, महीप.
 
-**Q4. Answer B** — By cargo volume, Deendayal (Kandla) and Paradip often lead among major ports; JNPT leads in container traffic. Wording matters — container vs total cargo. Treat JNPT as container leader.
+**Q4. Answer A** — Paradip is the largest major port by cargo: FY 2024-25 Paradip 150.41 MMT vs Deendayal (Kandla) 150.16 MMT; JNPT (92.12 MMT) leads only in container traffic. (Private port Mundra handles more overall, so the question is about major ports.)
 
 **Q5. Answer B** — अमर — जो कभी न मरे; अजर — जो कभी बूढ़ा न हो.
 
@@ -3622,7 +3624,7 @@
 
 **Q49. Answer B** — State dance of Rajasthan; graceful swirling ghaghra
 
-**Q50. Answer B** — Never conquered; Anup Mahal; not built on a hill
+**Q50. Answer B** — Junagarh Fort was built by Raja Rai Singh of Bikaner, 1589–94; a ground-level fort (not on a hill), never conquered; Anup Mahal inside.
 
 **Q51. Answer A** — SO2 + NOx → sulphuric/nitric acids in rain; from fossil-fuel burning.
 
@@ -3636,7 +3638,7 @@
 
 **Q56. Answer A** — NaCl — sodium chloride.
 
-**Q57. Answer D** — Built Ganga Canal (1927, from Sutlej); represented India at Versailles 1919
+**Q57. Answer D** — Maharaja Ganga Singh ruled Bikaner 1888–1943; built the Ganga Canal (1927, from the Sutlej) and represented India at Versailles (1919).
 
 **Q58. Answer A** — Influenza — virus; TB — bacterium; Cholera — bacterium (Vibrio); Malaria — protozoan (Plasmodium, via mosquito).
 
@@ -3692,13 +3694,13 @@
 
 **Q84. Answer C** — Each term ×2.
 
-**Q85. Answer A** — Largest fort in India; Vijay Stambh; Jauhar of Rani Padmini (1303) & Rani Karnavati (1535)
+**Q85. Answer A** — Largest fort in India (~700 acres); Vijay Stambh; jauhar of 1303 (Alauddin Khalji's siege) and of 1535 under Rani Karnavati. ('Rani Padmini' is the Padmavat legend, not verified history.)
 
 **Q86. Answer D** — CPU — Central Processing Unit; brain of computer.
 
 **Q87. Answer B** — Dummy horse dance; men at weddings/fairs
 
-**Q88. Answer D** — Longest river of Rajasthan; Kota, Rawatbhata atomic power, Chambal ravines
+**Q88. Answer D** — Chambal is the longest river (by total course, ~1,024 km) associated with Rajasthan; Kota, Rawatbhata atomic power, Chambal ravines. (Banas, ~512 km, is the longest river flowing *entirely within* Rajasthan — see Q7.)
 
 **Q89. Answer C** — Gujarat (~1,600 km) — longest coastline; followed by Andhra Pradesh, Tamil Nadu.
 
@@ -3722,7 +3724,7 @@
 
 **Q99. Answer B** — Khanwa 1527 — Babur vs Rana Sanga's Rajput confederacy.
 
-**Q100. Answer A** — Average = (50+75)/2 = 62.
+**Q100. Answer A** — Average = (50+75)/2 = 125/2 = 62.5.
 
 **Q101. Answer A** — Only natural lake in Aravalli region, Mount Abu; believed dug by gods' nails
 
@@ -3754,7 +3756,7 @@
 
 **Q115. Answer C** — Built 32 forts incl. Kumbhalgarh; Vijay Stambh (1440-48) vs Mahmud Khilji; wrote Sangeet Raj
 
-**Q116. Answer B** — @ separates username and domain (e.g., name@example.com).
+**Q116. Answer B** — @ separates username and domain (e.g., name@example.com). [EXTRA topic — see header tag.]
 
 **Q117. Answer A** — Acetic acid (CH3COOH); citric — lemon; lactic — curd; formic — ant sting.
 

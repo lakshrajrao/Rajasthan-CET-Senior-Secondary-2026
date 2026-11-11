@@ -305,7 +305,7 @@ def render_paper(idx, title, subtitle):
     L.append(f"# {title}\n")
     L.append(f"**{subtitle}**\n")
     L.append("**⚠️ ALL 120 questions below are PREDICTED / GENERATED — NOT actual PYQs. No question is reproduced from a real CET paper. Use for practice only.**\n")
-    L.append("**Exam conditions:** 120 questions • 240 marks • 150 minutes answering + **10 minutes extra after the paper for OMR verification** (official) • +2 correct • −2/3 wrong • **E = 0** (deliberate skip) • **Blank (no circle darkened) = −1/3 mark each if 12 or fewer blanks; MORE THAN 10% blanks (13+ of 120) = DISQUALIFIED** (Adv 08/2026 Rule 5, pp.15–22) • **Blue ball-point pen only** • One circle per question mandatory — darken E if you do not know the answer; **never leave a circle blank** (a blank costs −1/3 and counts toward disqualification, while E costs 0 and a random guess has EV 0.0 — see §12). Qualifying: 40% = 96/240 (35% = 84/240 for SC/ST) — reported; verify against the official notification.\n")
+    L.append("**Exam conditions:** 120 questions • 240 marks • 150 minutes answering + **10 minutes extra after the paper for OMR verification** (official) • +2 correct • −2/3 wrong • **E = 0** (deliberate skip) • **Blank (no circle darkened) = −2/3 mark each if 12 or fewer blanks; MORE THAN 10% blanks (13+ of 120) = DISQUALIFIED** (Adv 08/2026 Rule 5, pp.15–22) • **Blue ball-point pen only** • One circle per question mandatory — darken E if you do not know the answer; **never leave a circle blank** (a blank costs −2/3 and counts toward disqualification, while E costs 0 and a random guess has EV 0.0 — see §12). Qualifying: 40% = 96/240 (35% = 84/240 for SC/ST) — reported; verify against the official notification.\n")
     L.append("**Subject mix used (REPORTED/DERIVED ONLY — the official scheme gives NO per-subject question split):** Raj GK & Admin 50 • Geo India 10 • Science 15 • Reasoning/Maths 15 • Hindi+English 15 • Computer 5 • Current Affairs & Public Health 10 = 120.\n")
     L.append("## Questions\n")
     for i,q in enumerate(p,1):
@@ -328,7 +328,7 @@ def render_paper(idx, title, subtitle):
 header="""# RAJASTHAN CET SENIOR SECONDARY LEVEL 2026 — THREE FULL-LENGTH MOCK PAPERS
 
 **Advt 08/2026 • RSSB • Exam 1–3 Dec 2026 (revised from 23–25 Oct 2026) • 120 Q / 240 marks / 150 min + 10 min OMR verification**
-**Marking: +2 correct, −2/3 wrong, E = 0, blank = −1/3 each (≤12 blanks); 13+ blanks = DISQUALIFIED (Rule 5). Blue ball-point pen only.**
+**Marking: +2 correct, −2/3 wrong, E = 0, blank = −2/3 each (≤12 blanks); 13+ blanks = DISQUALIFIED (Rule 5). Blue ball-point pen only.**
 **Qualifying: 40% = 96/240; 35% = 84/240 for SC/ST (reported — verify in official notification).**
 
 > **ALL 360 questions are PREDICTED / GENERATED for practice — NOT actual PYQs.** No question is claimed to be from a real CET paper. No question is repeated across the three papers (verified: 360 unique questions). The subject split below is **reported/derived only; the official scheme gives NO per-subject split** — do not treat it as official weightage.
@@ -356,17 +356,17 @@ plan = """# 20-DAY STUDY PLAN — RAJASTHAN CET SENIOR SECONDARY 2026
 > **Balance rule (user correction, 11 Nov):** NO subject is Raj-GK-only. Every day covers 2–3 subjects; each of Science, Maths, Reasoning, Hindi, English, Computer, Public Health, Indian GK, Rajasthan GK and Current Affairs gets dedicated days AND daily revision blocks. The subject split in the mocks (Raj 50 / Geo 10 / Science 15 / Reasoning-Maths 15 / Hindi+English 15 / Computer 5 / CA+PH 10) is **reported/derived only — the official scheme gives NO per-subject split**.
 
 ## OMR & NEGATIVE-MARKING STRATEGY (verified, Adv 08/2026 Rule 5, pp.15–22)
-- **+2** correct • **−2/3 (−0.667)** wrong • **E = 0** (deliberate skip, darken the E circle) • **Blank (no circle) = −1/3 each if ≤12 blanks; 13+ blanks (more than 10% of 120) = DISQUALIFIED.** Blue ball-point pen only; one circle per question mandatory; **10 extra minutes after the paper for OMR verification** — use them to check every row has exactly one circle darkened.
-- **NEVER leave a circle blank.** A blank costs −0.333 and counts toward disqualification; E costs 0. If you truly do not know, darken E.
+- **+2** correct • **−2/3 (−0.667)** wrong • **E = 0** (deliberate skip, darken the E circle) • **Blank (no circle) = −2/3 each if ≤12 blanks; 13+ blanks (more than 10% of 120) = DISQUALIFIED.** Blue ball-point pen only; one circle per question mandatory; **10 extra minutes after the paper for OMR verification** — use them to check every row has exactly one circle darkened.
+- **NEVER leave a circle blank.** A blank costs −0.667 and counts toward disqualification; E costs 0. If you truly do not know, darken E.
 - **Expected Value (EV) per attempt, per question (correct +2, wrong −2/3):**
   - Random guess, p=0.25: EV = 0.25×2 − 0.75×0.667 = 0.50 − 0.50 = **0.00** (neutral — same as E).
   - 1 option eliminated (p=1/3): EV = 0.333×2 − 0.667×0.667 = 0.667 − 0.444 = **+0.222** → **ATTEMPT**.
   - 2 options eliminated (p=0.50): EV = 0.50×2 − 0.50×0.667 = 1.00 − 0.333 = **+0.667** → **ATTEMPT**.
   - 3 eliminated / certain (p≈1): EV ≈ **+2.00** → **ATTEMPT**.
-  - No elimination at all: EV = 0.00 = E — **darken E, do NOT leave blank** (blank EV = −0.333, worse than both).
+  - No elimination at all: EV = 0.00 = E — **darken E, do NOT leave blank** (blank EV = −0.667, worse than both).
   - Rule of thumb: **attempt if you can eliminate ≥1 option; otherwise mark E.** Over 120Q, attempting all 1-elimination questions at EV +0.222 each is worth real marks; blind guessing adds nothing on average but adds variance.
 - **Qualifying target:** 96/240 (40%; SC/ST 84/240 = 35%) — reported, verify officially. Aim in mocks for **≥120/240** to have a safety margin, not just 96.
-- **Worked example:** 70 correct, 30 wrong, 20 E, 0 blank → Score = 70×2 − 30×0.667 = 140 − 20 = **120**. The same paper with 20 blanks instead of E → 120 − 20×0.333 = **113.3**, plus disqualification risk if blanks rise to 13+ (here 20 blanks = disqualified outright). **E vs blank is a 6.7-mark swing and a disqualification risk — never blank.**
+- **Worked example:** 70 correct, 30 wrong, 20 E, 0 blank → Score = 70×2 − 30×0.667 = 140 − 20 = **120**. The same paper with 20 blanks instead of E → 140 − 20 − 20×0.667 = **106.7**, plus disqualification outright (here 20 blanks = disqualified). **E vs blank is a 13.3-mark swing and a disqualification risk — never blank.**
 - **Time plan (150 min / 120Q = 75 sec/Q):** Pass 1 (0–90 min): answer all Easy/certain questions, mark E provisionally for unsure ones, circle Q-nos to revisit — do not spend >90 sec on any one question. Pass 2 (90–130 min): revisit marked questions, apply elimination, attempt if ≥1 eliminated else confirm E. Pass 3 (130–150 min): fill every remaining circle (E if unsure), check numbering. **+10 min OMR verification:** verify every row has exactly one darkened circle, no blanks, no double-marks, roll no. and booklet code correct.
 - **Daily test scoring:** always use Score = (Correct×2) − (Incorrect×2/3) − (Blank×1/3); E = 0. Log Correct / Incorrect / E / Blank separately in the tracker. A day with any blank is a failed OMR day — fix the habit, not just the score.
 
@@ -438,8 +438,8 @@ with open(f"{OUT}/performance_tracker.csv","w",newline="",encoding="utf-8") as f
     w.writerow([])
     w.writerow(["SCORE CALCULATOR — Score = (Correct x 2) - (Incorrect x 2/3) - (Blank x 1/3). E responses are NOT counted as incorrect and score 0."])
     w.writerow(["Example: 70 correct, 30 wrong, 20 E, 0 blank => 70*2 - 30*0.667 - 0 = 120.00"])
-    w.writerow(["Example: same paper but 20 blanks instead of E => 120 - 20*0.333 = 113.33 AND 20 blanks > 12, so DISQUALIFIED under Rule 5 (more than 10% blanks)."])
+    w.writerow(["Example: same paper but 20 blanks instead of E => 140 - 20 - 20*0.667 = 106.67 AND 20 blanks > 12, so DISQUALIFIED under Rule 5 (more than 10% blanks)."])
     w.writerow(["Qualifying: 96/240 (40%); SC/ST 84/240 (35%) — reported, verify officially. Aim >=120/240 in mocks."])
-    w.writerow(["OMR RULE: more than 10% blanks (13+ of 120) = DISQUALIFIED. 12 or fewer blanks = -1/3 mark each. Blue ball-point pen only. One circle per question; darken E for deliberate skips. +10 min OMR verification after the paper."])
-    w.writerow(["EV RULE: attempt if you can eliminate >=1 option (EV +0.222 with 1 eliminated, +0.667 with 2 eliminated); random guess EV = 0.00 = E; blank EV = -0.333. Never leave a circle blank."])
+    w.writerow(["OMR RULE: more than 10% blanks (13+ of 120) = DISQUALIFIED. 12 or fewer blanks = -2/3 mark each. Blue ball-point pen only. One circle per question; darken E for deliberate skips. +10 min OMR verification after the paper."])
+    w.writerow(["EV RULE: attempt if you can eliminate >=1 option (EV +0.222 with 1 eliminated, +0.667 with 2 eliminated); random guess EV = 0.00 = E; blank EV = -0.667. Never leave a circle blank."])
 print("performance_tracker.csv written")

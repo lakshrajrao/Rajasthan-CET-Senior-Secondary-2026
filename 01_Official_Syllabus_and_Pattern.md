@@ -4,7 +4,7 @@ Advt. No. 08/2026 | RSSB, Jaipur | Research date: 11 Nov 2026
 
 ## Status — read this first
 
-Your pattern (120 questions / 240 marks / 150 minutes / −1/3) is **CONFIRMED CORRECT for 2026**. It is **NOT** the old pattern. The 2022 (Feb 2023) and 2024 papers were 150 questions / 300 marks / 3 hours. Several websites still show the old 150Q figure for 2026 — those pages copy the 2024 cycle and are wrong for 2026. The 120Q figure is confirmed by the notification text itself (p.15: "120 240 02.30 HR") and by the user-uploaded official extract (see `00_Official_Syllabus_Verification.md`).
+Your pattern (120 questions / 240 marks / 150 minutes / −2/3 per wrong answer) is **CONFIRMED CORRECT for 2026**. It is **NOT** the old pattern. The 2022 (Feb 2023) and 2024 papers were 150 questions / 300 marks / 3 hours. Several websites still show the old 150Q figure for 2026 — those pages copy the 2024 cycle and are wrong for 2026. The 120Q figure is confirmed by the notification text itself (p.15: "120 240 02.30 HR") and by the user-uploaded official extract (see `00_Official_Syllabus_Verification.md`).
 
 ## Key facts — verified
 
@@ -45,7 +45,7 @@ RSSB does **not** publish a guaranteed per-subject question count — the syllab
 ## What changed vs 2022 / 2024 — and why it matters
 
 1. **150Q → 120Q, 180 min → 150 min.** Time per question is unchanged (75 sec/Q), but each question is worth more of your rank.
-2. **Negative marking INTRODUCED (−1/3).** In 2022/2024 you could guess freely; in 2026 a blind guess has EV exactly 0 and a wrong guess costs 0.667. Attempt strategy is now a scoring skill — see File 02.
+2. **Negative marking INTRODUCED (−2/3 per wrong answer — 1/3 of the question's 2 marks).** In 2022/2024 you could guess freely; in 2026 a blind guess has EV exactly 0 and a wrong guess costs 0.667. Attempt strategy is now a scoring skill — see File 02.
 3. **New syllabus items in 2026:** VB-G RAM G (Viksit Bharat Guarantee for Rozgar and Aajeevika Mission – Gramin) in Economy; Disaster Management & Climate Change in Geography of India; Public Health as a separate head (First Aid, CPR, drug abuse, social-media addiction); Rajasthan Public Examination (Unfair Means) Act 2022 in Current Affairs / Civic Duties. These are prime "new question" territory.
 4. **Score validity 3 years** and 40% qualifying threshold carry over (as reported).
 

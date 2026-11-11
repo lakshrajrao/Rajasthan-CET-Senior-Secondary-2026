@@ -97,7 +97,7 @@
 ### B7. Seating Arrangement, Ranking, Calendar & Clock
 - **Ranking:** 40 students me Ram upar se 12th → neeche se = 40−12+1 = **29th**.
 - **Calendar:** 1 Jan 2026 = Thursday (verify — 2026 ka calendar yaad rakho: 1 Jan 2026 **Thursday** hai). Odd days method: 365 din = 1 odd day; Leap year = 2 odd days.
-- **Clock:** Ghadi ki suiyan 1 ghante me 11 baar (lagbhag) milti hain; 12 ghante me **11 baar**; Samkon (90°) — 1 ghante me 2 baar. **Solved:** 3 baje suiyon ke beech kon = **90°**.
+- **Clock:** Ghadi ki suiyan **12 ghante me 11 baar** milti hain (lagbhag har 1 ghanta 5.5 minute me ek baar); Samkon (90°) — 1 ghante me 2 baar. **Solved:** 3 baje suiyon ke beech kon = **90°**.
 - **Seating:** Vritt me — kendra ki ore munh; "Dayein" = ghadi ki vipreet disha (jab kendra ki ore dekho to ulta hota hai) — dhyaan se.
 
 ### B8. Statement–Assumption / Cause–Effect / Puzzles

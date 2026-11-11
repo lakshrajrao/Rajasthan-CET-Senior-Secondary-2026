@@ -218,7 +218,7 @@ Type: Factual 13, Matching 1. Difficulty: Easy 11, Medium 2, Hard 1. The easiest
 3. **Matching questions** appear in every 2024 shift sampled (Hindi ×3, sports, capitals, vocabulary) — expect 4–6 per full paper; they are Medium difficulty and time-consuming.
 4. **Passage sets** appear as 5-question blocks (English, P4). Hindi passages and English passages both occur in full papers.
 5. **Deleted questions happen:** P1 Q138 (2024) was deleted by RSSB — final keys, not provisional keys, are the authority for answers.
-6. **What changed for 2026 (limits direct transfer):** 150 Q → 120 Q; 3 h → 150 min (75 sec/question vs 72 sec/question — nearly the same pace); **no negative marking → −1/3 per wrong answer**; 4 options (A–D in ShikshaNagari reproductions) → **5 options with E = not attempted, and a blank costs −1/3**; new syllabus heads (Public Health; VB-G RAM G; Unfair Means Act 2022; civic duties). The 2022/2024 papers therefore measure *content and style*, not 2026 scoring behaviour — attempt strategy must be rebuilt for negative marking, and guessing is no longer free.
+6. **What changed for 2026 (limits direct transfer):** 150 Q → 120 Q; 3 h → 150 min (75 sec/question vs 72 sec/question — nearly the same pace); **no negative marking → −2/3 per wrong answer**; 4 options (A–D in ShikshaNagari reproductions) → **5 options with E = not attempted, and a blank costs −2/3**; new syllabus heads (Public Health; VB-G RAM G; Unfair Means Act 2022; civic duties). The 2022/2024 papers therefore measure *content and style*, not 2026 scoring behaviour — attempt strategy must be rebuilt for negative marking, and guessing is no longer free.
 
 ---
 

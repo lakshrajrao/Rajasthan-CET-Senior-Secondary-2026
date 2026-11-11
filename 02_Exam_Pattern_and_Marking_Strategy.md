@@ -44,4 +44,4 @@ Qualifying line: 40% of 240 = **96 marks** (General/OBC/EWS); 35% = **84 marks**
 
 **Attempt discipline in one line: attempt when you can eliminate at least one option; mark E when you cannot — and never, ever leave a circle blank.**
 
-Sources: Adv. 08/2026 notes 1–2 (equal marks; −1/3 per wrong answer); p.22 OMR Rules 1–5 (E rule, blank = −1/3 of question marks, >10% blanks = disqualified, +10 min). Qualifying 40%/35% and 3-year validity as reported (verify on admit card / notification). EV calculations are arithmetic from the stated marking scheme.
+Sources: Adv. 08/2026 notes 1–2 (equal marks; −2/3 per wrong answer = 1/3 of the question's 2 marks); p.22 OMR Rules 1–5 (E rule, blank = −2/3 of question marks, >10% blanks = disqualified, +10 min). Qualifying 40%/35% and 3-year validity as reported (verify on admit card / notification). EV calculations are arithmetic from the stated marking scheme.

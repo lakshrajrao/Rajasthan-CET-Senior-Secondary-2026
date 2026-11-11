@@ -1,0 +1,34 @@
+[INFO] --- PAPER 1 ---
+[INFO] Paper 1: questions = 120, numbering 1..120 sequential: True
+[PASS] Paper 1: questions without exactly A-E options: 0 []
+[INFO] Paper 1: subject tags = {'Geo India': 10, 'Maths: SI': 4, 'English: Tense': 1, 'Raj: Folk Dance': 3, 'Raj: History': 8, 'Raj: Rivers': 4, 'Computer': 5, 'Public Health': 3, 'Science: Biology': 7, 'Hindi: Sarvanam': 1, 'Raj: Lakes': 4, 'Reasoning: Direction': 1, 'Science: Chemistry': 5, 'Raj: Polity': 6, 'Raj: Art': 3, 'Raj: Economy': 4, 'Raj: Geography': 5, 'Reasoning: Series': 4, 'Raj: Forts': 8, 'English: Preposition': 1, 'Maths: Average': 1, 'Hindi: Vilom': 1, 'CA: International': 3, 'Maths: Percentage': 2, 'CA: Science': 1, 'English: One Word': 1, 'CA: Schemes': 2, 'Raj: Culture': 3, 'Maths: Speed': 1, 'Raj: Schemes': 1, 'Hindi: Lipi': 1, 'Public Health: Rajasthan': 1, 'Reasoning: Odd One': 1, 'Reasoning: Analogy': 1, 'Science: Physics': 3, 'Raj: Symbols': 1, 'Hindi: Muhavare': 1, 'Hindi: Paryayvachi': 2, 'English: Antonym': 1, 'English: Articles': 1, 'Hindi: Vachan': 1, 'Hindi: Sandhi': 1, 'English: Synonym': 1, 'English: Gender': 1}
+[INFO] Paper 1: difficulty = {'Easy': 70, 'Medium': 50}
+[PASS] Paper 1: duplicate stems = 0 []
+[INFO] Paper 1: key entries = 120, covers 1..120: True
+[INFO] Paper 1: key distribution = {'A': 29, 'B': 33, 'C': 26, 'D': 32}
+[INFO] Paper 1: explanations = 120, covers 1..120: True
+[PASS] Paper 1: key-vs-explanation mismatches = 0 []
+[INFO] Paper 1: max score = 120 x 2 = 240; key dist sums to 120
+[INFO] --- PAPER 2 ---
+[INFO] Paper 2: questions = 120, numbering 1..120 sequential: True
+[PASS] Paper 2: questions without exactly A-E options: 0 []
+[INFO] Paper 2: subject tags = {'English: Antonym': 2, 'Raj: Symbols': 1, 'Raj: Fairs': 2, 'Computer': 5, 'Hindi: Paryayvachi': 2, 'Geo India': 10, 'English: One Word': 1, 'Raj: Geography': 1, 'Maths: SI': 6, 'Public Health': 6, 'Raj: Culture': 2, 'Raj: Polity': 3, 'Hindi: Vilom': 2, 'Raj: History': 8, 'English: Preposition': 1, 'English: Tense': 1, 'Raj: Folk Dance': 2, 'Science: Physics': 7, 'Raj: Forts': 7, 'Raj: Environment': 2, 'Reasoning: Series': 3, 'Raj: Schemes': 1, 'CA: Days': 1, 'Science: Biology': 5, 'Hindi: Varnamala': 1, 'Raj: Rivers': 9, 'CA: Schemes': 1, 'Raj: Lakes': 6, 'English: Grammar': 1, 'CA: Policy': 1, 'Maths: Average': 3, 'Raj: Census': 3, 'CA: Science': 1, 'Hindi: Muhavare': 1, 'Hindi: Shabdarth': 1, 'Science: Chemistry': 3, 'Maths: Percentage': 1, 'Reasoning: Odd One': 1, 'Hindi: Karak': 1, 'Raj: Economy': 2, 'Raj: Art': 1, 'Reasoning: Coding': 1, 'English: Synonym': 1}
+[INFO] Paper 2: difficulty = {'Easy': 66, 'Medium': 54}
+[PASS] Paper 2: duplicate stems = 0 []
+[INFO] Paper 2: key entries = 120, covers 1..120: True
+[INFO] Paper 2: key distribution = {'A': 35, 'B': 22, 'C': 32, 'D': 31}
+[INFO] Paper 2: explanations = 120, covers 1..120: True
+[PASS] Paper 2: key-vs-explanation mismatches = 0 []
+[INFO] Paper 2: max score = 120 x 2 = 240; key dist sums to 120
+[INFO] --- PAPER 3 ---
+[INFO] Paper 3: questions = 120, numbering 1..120 sequential: True
+[PASS] Paper 3: questions without exactly A-E options: 0 []
+[INFO] Paper 3: subject tags = {'Raj: Rivers': 8, 'Raj: CA/Schemes': 1, 'Hindi: Paryayvachi': 2, 'Geo India': 10, 'Hindi: Ek Shabda': 1, 'Raj: Polity': 8, 'Reasoning: Calendar': 1, 'Maths: SI': 3, 'Reasoning: Analogy': 1, 'Science: Physics': 3, 'Science: Biology': 8, 'English: Spelling': 2, 'Raj: Folk Dance': 10, 'Reasoning: Coding': 1, 'Raj: Lakes': 5, 'Raj: Forts': 6, 'Maths: Average': 4, 'English: Grammar': 1, 'Raj: History': 6, 'Public Health': 4, 'Science: Chemistry': 4, 'CA: Policy': 3, 'Raj: Geography': 2, 'Computer': 5, 'Maths: Percentage': 2, 'CA: Schemes': 2, 'Reasoning: Series': 3, 'Raj: Art': 1, 'English: Idioms': 2, 'Raj: Fairs': 1, 'English: Voice': 2, 'Hindi: Muhavare': 1, 'Hindi: Vachya': 1, 'Raj: Symbols': 1, 'CA: Rajasthan': 1, 'Hindi: Shuddha Vartani': 1, 'Raj: Language': 1, 'Hindi: Vilom': 1, 'English: Synonym': 1}
+[INFO] Paper 3: difficulty = {'Hard': 28, 'Easy': 57, 'Medium': 35}
+[PASS] Paper 3: duplicate stems = 0 []
+[INFO] Paper 3: key entries = 120, covers 1..120: True
+[INFO] Paper 3: key distribution = {'A': 33, 'B': 29, 'C': 23, 'D': 35}
+[INFO] Paper 3: explanations = 120, covers 1..120: True
+[PASS] Paper 3: key-vs-explanation mismatches = 0 []
+[INFO] Paper 3: max score = 120 x 2 = 240; key dist sums to 120
+[PASS] ALL PAPERS: duplicate stems across papers = 0

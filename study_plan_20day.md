@@ -38,7 +38,7 @@
 | Day 3 — Sat 14 Nov | **Rajasthan Art & Culture** — forts, paintings (Phad/Pichwai/Kota-Bundi), dances, fairs, GI tags | **Mathematics** — SI, %, average, ratio, speed (formula sheet) | 60 | 30Q | Days 1–2 |
 | Day 4 — Sun 15 Nov | **Indian Polity (Raj focus)** — Assembly 200, LS 25/RS 10, HC Jodhpur, Panchayati Raj (Nagaur 1959), 73rd/74th | **General English** — synonym/antonym, spelling, voice, prepositions | 60 | 30Q | Days 1–3 weak areas |
 | Day 5 — Mon 16 Nov | **Rajasthan Economy** — agriculture (bajra/mustard), minerals (zinc-lead, marble), irrigation (IGC, Bisalpur, Rana Pratap Sagar), solar (Bhadla) | **General Science: Physics** — units, light, sound, electricity | 60 | 30Q | Days 1–4 |
-| Day 6 — Tue 17 Nov | **Logical Reasoning** — series, coding, odd-one, analogy, direction, calendar | **Computer Knowledge** — CPU/RAM, MS Office, shortcuts, internet, full forms | 60 | 30Q Reasoning | Days 3–5 |
+| Day 6 — Tue 17 Nov | **Logical Reasoning** — series, coding, odd-one, analogy, direction, calendar | **Computer Knowledge** — CPU/RAM, MS Office, shortcuts, full forms (internet = EXTRA, 12th syllabus me nahi — low priority) | 60 | 30Q Reasoning | Days 3–5 |
 | Day 7 — Wed 18 Nov | **Geography of India** — rivers, soils, monsoon, dams, coastline, Green/Blue revolutions | **Public Health** — NHM, Mission Indradhanush, Pulse Polio, ORS, anaemia, JSY, Poshan | 60 | 30Q | Week 1 full revision (Days 1–6) |
 | Day 8 — Thu 19 Nov | **Current Affairs (last 12 months)** — schemes (VB-G RAM G 2025, PM-JAY, Jal Jeevan, PM-KISAN), Chandrayaan-3, G20 2023, NEP 2020 | **General Hindi** — karak, vachya, sarvanam, shuddha vartani | 60 | 30Q CA | Days 1–7 weakest subject |
 | Day 9 — Fri 20 Nov | **Rajasthan History + Culture — consolidation** — forts × rulers × fairs × temples (timed recall, no notes first) | **General Science: Chemistry** — acids, salts, metals, pH, greenhouse gases | 60 | 30Q | Days 1–8 |
@@ -55,7 +55,7 @@
 | Day 20 — Tue 1 Dec | **FULL MOCK + OMR PRACTICE** — re-attempt your lowest-scoring mock paper (or Mock 1) under exam conditions; final OMR check drill; light revision only after lunch; **no new topics**; sleep early | **Exam kit check** — admit card, blue ball-point pens (×3), ID, reporting time | 120 (mock re-attempt) | Full mock | Error notebook — read only, do not start new material |
 
 ## WEEKLY CHECKPOINTS
-- **After Day 7:** all 10 subject areas touched at least once; tracker filled for Days 1–7.
+- **After Day 7:** all 13 syllabus heads touched at least once; tracker filled for Days 1–7.
 - **After Day 11 (Mock 1):** target ≥96/240 (qualifying); if below, Days 12–14 shift 30 min/day to the two weakest subjects.
 - **After Day 15 (Mock 2):** target ≥110/240; error notebook must show repeated-mistake patterns, not just scores.
 - **After Day 18 (Mock 3):** target ≥110/240 on the hardest paper; if any mock had ≥1 blank, do an extra OMR drill on Day 19.

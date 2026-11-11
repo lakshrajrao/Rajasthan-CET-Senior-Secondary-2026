@@ -22,7 +22,7 @@ Date,Paper,Correct,Incorrect,E_Unattempted,Blank,Score,Accuracy_pct,Notes
 
 SCORE CALCULATOR — Score = (Correct x 2) - (Incorrect x 2/3) - (Blank x 2/3). E responses are NOT counted as incorrect and score 0.
 "Example: 70 correct, 30 wrong, 20 E, 0 blank => 70*2 - 30*0.667 - 0 = 120.00"
-"Example: same paper but 20 blanks instead of E => 120 - 20*0.333 = 113.33 AND 20 blanks > 12, so DISQUALIFIED under Rule 5 (more than 10% blanks)."
+"Example: same paper but 20 blanks instead of E => 140 - 20 - 20*0.667 = 106.67 AND 20 blanks > 12, so DISQUALIFIED under Rule 5 (more than 10% blanks)."
 "Qualifying: 96/240 (40%); SC/ST 84/240 (35%) — reported, verify officially. Aim >=120/240 in mocks."
 OMR RULE: more than 10% blanks (13+ of 120) = DISQUALIFIED. 12 or fewer blanks = -2/3 mark each (1/3 of the question's 2 marks). Blue ball-point pen only. One circle per question; darken E for deliberate skips. +10 min OMR verification after the paper.
-"EV RULE: attempt if you can eliminate >=1 option (EV +0.222 with 1 eliminated, +0.667 with 2 eliminated); random guess EV = 0.00 = E; blank EV = -0.333. Never leave a circle blank."
+"EV RULE: attempt if you can eliminate >=1 option (EV +0.222 with 1 eliminated, +0.667 with 2 eliminated); random guess EV = 0.00 = E; blank EV = -0.667. Never leave a circle blank."

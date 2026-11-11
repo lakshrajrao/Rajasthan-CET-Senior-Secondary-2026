@@ -41,7 +41,7 @@
 | **Lokokti:** "जैसी करनी वैसी भरनी" | karmo ka phal milta hai |
 | **Lokokti:** "अंधों में काना राजा" | agyaniyon me thoda gyani bhi bada |
 
-## 12.6 Ras, Chhand, Alankar (short)
+## 12.6 Ras, Chhand, Alankar (short) — ⚠️ EXTRA, 2026 12th-level syllabus me NAHI (Graduation-level / general awareness only; priority mat do)
 - **Ras (9):** Shringar, Hasya, Karun, Raudra, Veer, Bhayanak, Bibhatsa, Adbhut, Shant. **Veer Ras** — yuddh/sahas.
 - **Alankar:** **Upama** (jaise, sa, si — tulna), **Rupak** (ek hi batana — "चरण कमल"), **Anupras** (varn ki avritti), **Yamak** (ek shabd, do arth).
 - **Chhand:** Dohe, Chaupai, Soratha — matra par aadharit.

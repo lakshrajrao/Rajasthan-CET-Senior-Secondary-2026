@@ -30,12 +30,19 @@
 | [question_bank.csv](question_bank.csv) | **Combined bank: 300 MCQs** (all subjects) |
 | [question_bank/01_history_rajasthan.csv](question_bank/01_history_rajasthan.csv) … [question_bank/13_general_english.csv](question_bank/13_general_english.csv) | Per-subject CSVs (14 files; area 8 split into Maths + Reasoning) |
 | [gen_qb.py](gen_qb.py) | Generator script (reproducible; re-running rebuilds all CSVs identically) |
+| [AUDIT_CORRECTION_REGISTER.md](AUDIT_CORRECTION_REGISTER.md) | **Final QC 11 Nov 2026:** every correction (file/line, problem, fix, evidence, status), open gaps, unverified claims |
+| [CHATGPT_STUDY_HANDOVER.md](CHATGPT_STUDY_HANDOVER.md) | **Final QC 11 Nov 2026:** teaching handover for ChatGPT — 13 subjects, MCQ/PYQ IDs, teaching sequences, chapter tests, PDF checklist |
+| [study_progress_tracker.csv](study_progress_tracker.csv) | **Final QC 11 Nov 2026:** topic-level tracker, 104 topics (63 verified / 32 gaps / 9 partial; nothing pre-marked complete) |
+| [mock_papers.md](mock_papers.md) | **3 mock papers × 120Q = 360 generated questions** (audit-corrected 11 Nov 2026 — see register §B) |
+| [study_plan_20day.md](study_plan_20day.md) | 20-day plan, 12 Nov–1 Dec 2026 (mocks Days 11/15/18; Day 20 full mock + OMR drill) |
+| [performance_tracker.csv](performance_tracker.csv) | Mock-test log + scoring/EV reference (blank-penalty errors fixed 11 Nov 2026) |
+| [audit/](audit/) | Audit evidence: mock + question-bank findings, automated-check reports, fix scripts |
 | [INDEX.md](INDEX.md) | This file |
 
 ## Question-bank counts (300 total — all ORIGINAL, syllabus-based, NOT labelled as PYQs)
 | Subject | Qs | Answer-key balance (CSV) |
 |---|---|---|
-| 01 History of Rajasthan | 24 | A 73 / B 71 / C 76 / D 80 overall; E never correct |
+| 01 History of Rajasthan | 24 | A 74 / B 72 / C 75 / D 79 overall (audit-verified 11 Nov 2026); E never correct |
 | 02 Art & Culture of Rajasthan | 20 | (overall balance as above) |
 | 03 Geography of India | 20 | |
 | 04 Geography of Rajasthan | 22 | |
@@ -78,6 +85,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Fairs/festivals: Pushkar, Desert, Teej, Gangaur, Baneshwar, Urs | Y |
 | Forts & UNESCO: 6 Hill Forts (2013), Jantar Mantar (2010), Keoladeo (1982) | Y |
 | Language/literature: Rajasthani, Detha, Sethia, Chand Bardai, Dingal/Pingal | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** dresses/ornaments/customs and theatre are **missing/thin** in the notes — see register §G14 and `study_progress_tracker.csv`. | P |
 
 ### 03 Geography of India — Y
 | Official subtopic | Covered |
@@ -88,6 +96,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Climate/soils/agriculture (Green Revolution, Swaminathan) | Y |
 | Minerals/industry/transport (Jharia, NH-44, first rail 1853) | Y |
 | Population Census 2011 (121.08 cr, 943, 73%) | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** dams, lakes & oceans; wildlife & sanctuaries; disaster management & climate change (NEW 2026) are **missing** from the notes — see register §G6. | P |
 
 ### 04 Geography of Rajasthan — Y
 | Official subtopic | Covered |
@@ -99,6 +108,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | National parks: Ranthambore, Sariska, Keoladeo, Desert NP | Y |
 | Minerals/energy: Zawar zinc-lead, Bhadla Solar, Barmer oil, IGNP | Y |
 | Agriculture: Bajra/Sarso No.1 | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** livestock; major tribes (Bhil, Meena, Garasia); tourism are **missing** from the notes — see register §G7. | P |
 | **⚠️ GAP:** District count — 33-district figure vs 2023–24 reorganisation is **unresolved in this pack; no MCQ asked on total districts.** Verify from official source before exam. | P |
 
 ### 05 Indian Polity (Rajasthan ref.) — Y
@@ -108,6 +118,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Union/State structure; 200/25/10 seats; CM/Governor (Nov 2026) | Y |
 | Panchayati Raj: Nagaur 2 Oct 1959, 3-tier, Balwant Rai Mehta, Gram Sabha | Y |
 | Rajasthan administration: RPSC Ajmer, High Court Jodhpur, Lokayukta | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** Supreme Court / Election Commission detail thin; State Information Commission / State Human Rights Commission detail **missing** — see register §G8. | P |
 
 ### 06 Economy of Rajasthan — Y
 | Official subtopic | Covered |
@@ -116,6 +127,8 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Agriculture: Bajra/Sarso No.1, irrigation, PM-KISAN/Fasal Bima | Y |
 | Industry/minerals: Bhilwara textiles, Chittorgarh cement, Hindustan Zinc, Barmer oil | Y |
 | Schemes: Gargi (₹109 cr/3.63 lakh), Lakhpati Didi (₹1.5 lakh), Yuva Swarojgar, PM-JAY, MGNREGA | Y |
+| **⚠️ NOTE (final QC 11 Nov 2026):** the Gargi / Lakhpati Didi / Yuva Swarojgar figures above could NOT be verified in the audit — see register §H3–H5. Teach as "as per the bank — verify before exam". | P |
+| **⚠️ GAP (final QC 11 Nov 2026):** VB-G RAM G (NEW 2026); unemployment; drought & famine; financial institutions; PRI role in rural development are **missing**; animal husbandry detail thin — see register §G9. | P |
 
 ### 07 Everyday Science — Y (largest bank: 36 Qs)
 | Official subtopic | Covered |
@@ -126,6 +139,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Human body: vitamins–diseases table, endocrine (insulin/pituitary), excretion | Y |
 | Diseases: bacterial/viral/protozoal; vaccines (Jenner/Pasteur) | Y |
 | Environment: ecosystem, pollution, greenhouse gases, Project Tiger 1973, 5 June | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** oxidation/reduction + catalyst; allotropes; Indian space programme/ISRO; genetics/Mendel; biotechnology; economic importance of plants/animals are **missing** — see register §G5. | P |
 
 ### 08 Mathematics — Y (24 Qs, all answers computed & checked)
 | Official subtopic | Covered |
@@ -135,7 +149,8 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Ratio, average, age problems | Y |
 | Time–work, speed–distance (km/h↔m/s ×5/18), train problems | Y |
 | Mensuration (square/rectangle/triangle/circle/cube/cuboid/cylinder/sphere) | Y |
-| Algebra ((a+b)² etc., x+1/x), trigonometry (sin²+cos²=1, standard angles) | Y |
+| **Algebra/Trigonometry REMOVED (syllabus-purity correction, 11 Nov 2026):** (a+b)², x+1/x, sin²+cos²=1 and standard angles are Graduation-level, NOT in the 12th-level syllabus — the 3 bank questions were replaced with LCM/HCF, Ratio & Proportion and Cylinder Volume. **Do not teach as syllabus.** | — |
+| **⚠️ GAP (final QC 11 Nov 2026):** ellipse area formula (πab) is missing from the notes — see register §G12. | P |
 | Data interpretation (pie/table) | Y |
 
 ### 08 Logical Reasoning — Y (24 Qs)
@@ -155,6 +170,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | India sports: CWG Glasgow 39 (13-17-9); Asian Games 85 (21-27-37); Asian Para Games RECORD 114 (30-35-49); CWG 2030 Ahmedabad | Y |
 | Awards/science: Nobel 2026 (all 6, 5–12 Oct); ISRO NVS-03 (30 Oct); Ashoke Sen Oskar Klein (22 Oct); Sports Awards 2025 (17 Arjuna) | Y |
 | Important days (Rajasthan Diwas 30 Mar, Env. Day 5 June, etc.) | Y |
+| **⚠️ NOTE (final QC 11 Nov 2026):** the 235-athletes-jobs / RE-SAF award / 'Sapnon Ki Udaan' figures in the CA row above could NOT be verified in the audit — see register §H8–H10. | P |
 | **⚠️ GAP:** Events after 11 Nov 2026 (20 Nov–1 Dec) are NOT in this pack — revise separately before exam. | P |
 
 ### 10 Public Health — Y (notes + 14 Qs)
@@ -163,7 +179,8 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Health concepts, communicable vs non-communicable, vector/water/air-borne | Y |
 | Programmes: PM-JAY ₹5 lakh, NHM/ASHA, Mission Indradhanush, JSY/JSSK, Poshan Abhiyaan, TB Mukt Bharat, Pulse Polio (polio-free 2014), Swachh Bharat, Jal Jeevan Mission | Y |
 | Nutrition: BMI formula, stunting/wasting/anaemia; IMR/MMR/TFR | Y |
-| Health system: ASHA/ANM/PHC/CHC; immunisation schedule; first aid/CPR | Y |
+| Health system: ASHA/ANM/PHC/CHC; immunisation schedule | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** First Aid and CPR are **missing as taught topics** — CPR is one line in the notes and the bank has **zero** questions on the official Public Health core (First Aid, CPR, drug abuse, social-media addiction, youth fitness). See register §G1–G4. | P |
 | Rajasthan: Nishulk Dava/Jaanch Yojana, 108/104 | Y |
 | **⚠️ NOTE (sibling PYQ finding): Public Health has ZERO PYQ evidence — it is a NEW 2026 head.** Covered from syllabus + national programmes, not from past papers. | P |
 
@@ -172,6 +189,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 |---|---|
 | Basics: Babbage, CPU=brain, ALU/CU, input/output, RAM volatile, memory units (1 Byte=8 bit) | Y |
 | MS Office (.docx/.xlsx/.pptx, =SUM), OS, GUI | Y |
+| Internet / WWW / email / number-system / security / e-governance rows below are **EXTRA — not in the 2026 12th syllabus** (see the syllabus-purity correction at the end of this file). Kept as low-priority PYQ-style awareness only. | EXTRA |
 | Internet: WWW, HTTP, URL/IP, browsers, email (SMTP/POP3/IMAP, CC/BCC) | Y |
 | Number system: binary (10=1010, 101=5), LAN/MAN/WAN, modem/router | Y |
 | Security: virus, antivirus, firewall, phishing, OTP | Y |
@@ -185,7 +203,8 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Ling–vachan, kaal | Y |
 | Paryayvachi, vilom, anek-shabd-ek-shabd, samshruti | Y |
 | Muhavare & lokoktiyan | Y |
-| Ras/chhand/alankar (short) | Y |
+| Ras/chhand/alankar | **EXTRA — NOT in the 2026 12th-level syllabus** (labelled in notes §12.6, final QC 11 Nov 2026). Do not teach as syllabus. |
+| **⚠️ GAP (final QC 11 Nov 2026):** sangya/sarvanam/visheshan/avyaya detail thin; shabd-yugm, shabd-shuddhi, vakya-shuddhi, Hindi equivalents of English technical terms, office letters **missing** — see register §G10. | P |
 
 ### 13 General English — Y
 | Official subtopic | Covered |
@@ -195,6 +214,7 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 | Vocabulary: synonyms/antonyms (Susceptible–Resistant, 2024 PYQ), one-word substitution (Narcissist, Omniscient, Ambidextrous, Hydrophobia, Aviary) | Y |
 | Articles (An hour / A university), prepositions (since/for) | Y |
 | Reading comprehension strategy (2024 chess passage noted) | Y |
+| **⚠️ GAP (final QC 11 Nov 2026):** translation Hindi↔English; official & technical terms; letter writing **missing**; determiners detail thin — see register §G11. | P |
 
 ## Syllabus-purity correction (parent, 11 Nov 2026)
 - **REMOVED from question bank:** 3 Maths questions on Algebra (x+1/x) and Trigonometry (sin²+cos², tan45+sin30) — these are Graduation-level topics, NOT in the 12th-level official syllabus (Advt 08/2026 pp.15-22). Replaced with in-syllabus LCM/HCF, Ratio & Proportion, and Cylinder Volume questions. Notes §A8 rewritten the same way.
@@ -210,4 +230,11 @@ Every MCQ has: question, options A–D (content) + E ("Unattempted — mark E on
 RSSB Advt 08/2026 summaries (Testbook, Schools360, GovtJobsAlert); RSSB press note 28 Sep 2026; official extract pp.15–22 (parent verification); 2024 paper analysis (PublicNaukri, Shiksha Nagari); Rajasthan Budget 2026-27 (Indian Express/PTI, 11 Feb 2026); Rajasthan news Nov 2026 (TOI/IANS/ET Rajasthan, 1–7 Nov 2026); Nobel 2026 (Britannica, 5–12 Oct 2026); Asian Games/Para Games/CWG 2026 (TOI/NDTV/AIR, Sep–Oct 2026); ISRO NVS-03 (30 Oct 2026). Standard NCERT-level facts for Science/Maths/Reasoning/Hindi/English (no web source needed per question; formulas verified by computation in the generator).
 
 ## How to use
-1. Read one `notes/NN_*.md` file, then solve its CSV. 2. Score with: Score = (Correct×2) − (Incorrect×2/3); E = 0. 3. Log errors in the sibling agent's `performance_tracker.csv`. 4. Re-read only the flagged ⚠️ items + your error notebook in the last 3 days.
+1. Read one `notes/NN_*.md` file, then solve its CSV. 2. Score with: Score = (Correct×2) − (Incorrect×2/3) − (Blank×2/3); E = 0. 3. Log errors in the sibling agent's `performance_tracker.csv`. 4. Re-read only the flagged ⚠️ items + your error notebook in the last 3 days.
+
+## Final quality control — 11 Nov 2026 (this phase)
+- **Content audits (executed):** all 360 mock questions + all 300 bank MCQs checked in full. **Fixed:** 5 wrong mock keys, 13 wrong mock explanations, 4 ambiguous mock wordings, 3 out-of-syllabus mock questions (tagged EXTRA), 12 minor wording items; 1 wrong bank key ('Neelkanth' → Bahuvrihi), 3 ambiguous bank rows, 3 minor bank wording items, 2 bank rows replaced with real test items. Full detail: `AUDIT_CORRECTION_REGISTER.md`.
+- **Automated checks (executed, 0 FAILs):** bank 300 rows / 0 duplicates / A74-B72-C75-D79; mocks 360 questions / 0 duplicates / 0 key-explanation mismatches; PYQ sample 139 rows, correctly framed as a sample.
+- **New in this phase:** `AUDIT_CORRECTION_REGISTER.md`, `CHATGPT_STUDY_HANDOVER.md`, `study_progress_tracker.csv` (104 topics), `audit/` evidence folder, and this index's gap rows above.
+- **Still open:** 16 coverage gaps (register §G — Public Health core is the biggest), 14 unverified claim groups (register §H), RSSB live-site check failed (register §I1), Current Affairs after 11 Nov 2026 needs a pre-exam update.
+- **Teaching handover:** give ChatGPT the repo link + `CHATGPT_STUDY_HANDOVER.md` §8. ChatGPT creates the topic-wise PDFs in conversation — no duplicate PDFs in this repo.

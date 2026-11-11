@@ -2,7 +2,7 @@
 **Advt No. 08/2026 | RSSB | Exam: 1–3 Dec 2026 (tentative, per RSSB press note 28 Sep 2026) | 120 Q, 240 marks, 150 min, +2 / −2/3, 5 options (A–E, E = unattempted)**
 **Language:** Simple Hindi, important English terms retained. **Source hierarchy:** RSSB notification first; secondary summaries (Testbook/Adda247) only where marked.
 
-> ⚠️ **VERIFY BEFORE EXAM — Pattern discrepancy found (11 Nov 2026):** This pack follows the brief pattern 120Q/240 marks/150 min, which Testbook's summary of Advt 08/2026 also reports for Senior Secondary. BUT the 2024 Senior Secondary paper had **150Q/300 marks/3 hours**, and at least one secondary site (RojgarPulse) reports 150Q/300 for 2026 — it appears to conflate the Graduate-level pattern (150Q/300, 3 hrs) with Senior Secondary. **Check the official PDF on rssb.rajasthan.gov.in before the exam and adjust time strategy (120Q→75 sec/Q; 150Q→72 sec/Q).** The subject-wise distribution in the brief (Raj GK & Admin 50, India Geo 10, Science 15, Reasoning+Maths 15, Hindi+English 15, Computer 5, CA+Public Health 10 = 120) is **reported, NOT an official RSSB weightage table** — do not treat it as guaranteed.
+> ✅ **Pattern VERIFIED 11 Nov 2026 (audit correction):** 120Q/240 marks/150 min, +2/−2/3, E=0, blank=−2/3 — confirmed from the user-uploaded official notification extract (Advt 08/2026, pp.15–22, RajKaj 22979471; see `00_Official_Syllabus_Verification.md`). The earlier warning about a possible 150Q pattern is **superseded**: the 2024 paper was 150Q/300/3h with no negative marking, and some secondary sites (e.g. RojgarPulse) wrongly copy that 150Q figure — or the Graduate-level pattern (150Q/300, 3 hrs) — onto 2026 Senior Secondary. Time strategy: 120Q → 75 sec/Q. The subject-wise distribution in the brief (Raj GK & Admin 50, India Geo 10, Science 15, Reasoning+Maths 15, Hindi+English 15, Computer 5, CA+Public Health 10 = 120) is **reported, NOT an official RSSB weightage table** — do not treat it as guaranteed.
 > **OMR rule (verified across sources):** Blank circle with NO option darkened = −2/3 marks (treated as wrong). Deliberately unattempted = darken **E** = 0 marks. Never leave a question fully blank.
 > **2024 evidence (secondary analysis, PublicNaukri/Shiksha Nagari):** 2024 paper (150Q, 23 Oct 2024 shifts) — Hindi ~21Q, English ~19Q, Science ~19Q, Maths ~14Q, Raj Geography ~14Q, CA ~11Q, Raj History & Culture ~10Q, Computer ~9Q, Reasoning ~9Q, Raj Polity & Schemes ~8Q. Rajasthan GK overall ~30–35% in both levels. Use this as a guide, not a promise.
 
@@ -218,7 +218,7 @@ Rajasthan ki sanskriti — **rang, nritya-sangeet, chitrakala, hastshilp, mele-t
 - **Koyla:** Jharia (Jharkhand) — sabse bada koyla kshetra; **Korba, Talcher**.
 - **Loha (Iron ore):** Odisha, Chhattisgarh, Karnataka (Bailadila, Kudremukh).
 - **Bauxite:** Odisha (Koraput); **Mica:** Jharkhand/Bihar; **Petroleum:** Bombay High, Digboi (Assam — sabse purani refinery).
-- **Railway:** 16 zones (2026 tak); pehli rail 1853 Mumbai–Thane.
+- **Railway:** **18 zones** (South Coast Railway, Visakhapatnam — 18th zone, operational 1 June 2026, Gazette 4 May 2026); pehli rail 1853 Mumbai–Thane.
 - **National Highways:** NH-44 sabse lamba (Srinagar–Kanyakumari, ~3,745 km).
 - **Ports:** Kandla (Deendayal), Mumbai, Chennai, Kolkata, Visakhapatnam.
 
@@ -548,7 +548,7 @@ Rajasthan ki sanskriti — **rang, nritya-sangeet, chitrakala, hastshilp, mele-t
 ### B7. Seating Arrangement, Ranking, Calendar & Clock
 - **Ranking:** 40 students me Ram upar se 12th → neeche se = 40−12+1 = **29th**.
 - **Calendar:** 1 Jan 2026 = Thursday (verify — 2026 ka calendar yaad rakho: 1 Jan 2026 **Thursday** hai). Odd days method: 365 din = 1 odd day; Leap year = 2 odd days.
-- **Clock:** Ghadi ki suiyan 1 ghante me 11 baar (lagbhag) milti hain; 12 ghante me **11 baar**; Samkon (90°) — 1 ghante me 2 baar. **Solved:** 3 baje suiyon ke beech kon = **90°**.
+- **Clock:** Ghadi ki suiyan **12 ghante me 11 baar** milti hain (lagbhag har 1 ghanta 5.5 minute me ek baar); Samkon (90°) — 1 ghante me 2 baar. **Solved:** 3 baje suiyon ke beech kon = **90°**.
 - **Seating:** Vritt me — kendra ki ore munh; "Dayein" = ghadi ki vipreet disha (jab kendra ki ore dekho to ulta hota hai) — dhyaan se.
 
 ### B8. Statement–Assumption / Cause–Effect / Puzzles
@@ -718,7 +718,7 @@ Rajasthan ki sanskriti — **rang, nritya-sangeet, chitrakala, hastshilp, mele-t
 | **Lokokti:** "जैसी करनी वैसी भरनी" | karmo ka phal milta hai |
 | **Lokokti:** "अंधों में काना राजा" | agyaniyon me thoda gyani bhi bada |
 
-## 12.6 Ras, Chhand, Alankar (short)
+## 12.6 Ras, Chhand, Alankar (short) — ⚠️ EXTRA, 2026 12th-level syllabus me NAHI (Graduation-level / general awareness only; priority mat do)
 - **Ras (9):** Shringar, Hasya, Karun, Raudra, Veer, Bhayanak, Bibhatsa, Adbhut, Shant. **Veer Ras** — yuddh/sahas.
 - **Alankar:** **Upama** (jaise, sa, si — tulna), **Rupak** (ek hi batana — "चरण कमल"), **Anupras** (varn ki avritti), **Yamak** (ek shabd, do arth).
 - **Chhand:** Dohe, Chaupai, Soratha — matra par aadharit.
@@ -762,6 +762,6 @@ Rajasthan ki sanskriti — **rang, nritya-sangeet, chitrakala, hastshilp, mele-t
 ---
 # APPENDIX — EXAM-DAY RULES (from verified pattern, MEMORY 11 Nov 2026)
 - **Pattern (VERIFIED): 120Q / 240 marks / 150 min, +2 / −2/3, E=0, blank (no circle) = −2/3. Qualifying: 40% (96/240); 35% SC/ST (as reported).** 2022/2024 papers were 150Q/300/3h with NO negative marking — do NOT mix patterns.
-- **Negative-marking maths:** Sirf tab attempt karo jab kam se kam 2 options eliminate kar sako ya confidence ≥50% ho (EV: 50% par +2×0.5 − 0.667×0.5 = +0.667 > 0; 33% par EV ≈ 0; isse kam par E bharo). Bilkul andaza mat lagao.
+- **Negative-marking maths (AUDIT-CORRECTED 11 Nov 2026):** Attempt karo jab kam se kam **1 option eliminate** kar sako — EV tab bhi positive hai (EV: 50% par +2×0.5 − 0.667×0.5 = **+0.667**; 33% par +2×0.33 − 0.667×0.67 = **+0.22**; sirf 25% (random guess, koi elimination nahi) par EV = 0 — tab E bharo). Bilkul andaza mat lagao; kabhi circle blank mat chhodo (blank EV = −0.667).
 - **Time:** 120Q / 150 min = **75 sec/Q**; pehle 90 min me ek pass (aasan Q), phir 30 min mushkil, aakhri 30 min OMR check + E bharna.
 - **Sources used:** RSSB Advt 08/2026 summaries (Testbook, Schools360, GovtJobsAlert); RSSB press note 28 Sep 2026 (exam 1–3 Dec 2026); 2024 paper analysis (PublicNaukri, Shiksha Nagari); Budget 2026-27 (Indian Express/PTI, 11 Feb 2026); Nov 2026 Rajasthan news (TOI/IANS/ET, 1–7 Nov 2026); Nobel 2026 (Britannica/Nobel lists, 5–12 Oct 2026); Asian Games/Para Games/CWG 2026 (TOI/NDTV/AIR, Sep–Oct 2026); ISRO NVS-03 (30 Oct 2026). **Unverified/flagged items are marked ⚠️ in the text — exam se pehle rssb.rajasthan.gov.in par verify karo.**
