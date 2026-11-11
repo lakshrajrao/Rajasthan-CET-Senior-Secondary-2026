@@ -1,0 +1,28 @@
+Subject,Topics_Completed,PYQs_Solved,MCQs_Solved,Accuracy,Weak_Areas,Revision_Status
+Rajasthan GK & History,0,0,0,,,Not started
+Rajasthan Art & Culture,0,0,0,,,Not started
+Rajasthan Geography,0,0,0,,,Not started
+Rajasthan Polity & Economy,0,0,0,,,Not started
+Geography of India,0,0,0,,,Not started
+General Science,0,0,0,,,Not started
+Mathematics,0,0,0,,,Not started
+Logical Reasoning,0,0,0,,,Not started
+General Hindi,0,0,0,,,Not started
+General English,0,0,0,,,Not started
+Computer Knowledge,0,0,0,,,Not started
+Public Health,0,0,0,,,Not started
+Current Affairs,0,0,0,,,Not started
+
+MOCK TEST LOG — fill one row per mock / daily test
+Date,Paper,Correct,Incorrect,E_Unattempted,Blank,Score,Accuracy_pct,Notes
+2026-11-22,Mock Paper 1,,,,,,,
+2026-11-26,Mock Paper 2,,,,,,,
+2026-11-29,Mock Paper 3,,,,,,,
+2026-12-01,Mock re-attempt (Day 20),,,,,,,
+
+SCORE CALCULATOR — Score = (Correct x 2) - (Incorrect x 2/3) - (Blank x 2/3). E responses are NOT counted as incorrect and score 0.
+"Example: 70 correct, 30 wrong, 20 E, 0 blank => 70*2 - 30*0.667 - 0 = 120.00"
+"Example: same paper but 20 blanks instead of E => 120 - 20*0.333 = 113.33 AND 20 blanks > 12, so DISQUALIFIED under Rule 5 (more than 10% blanks)."
+"Qualifying: 96/240 (40%); SC/ST 84/240 (35%) — reported, verify officially. Aim >=120/240 in mocks."
+OMR RULE: more than 10% blanks (13+ of 120) = DISQUALIFIED. 12 or fewer blanks = -2/3 mark each (1/3 of the question's 2 marks). Blue ball-point pen only. One circle per question; darken E for deliberate skips. +10 min OMR verification after the paper.
+"EV RULE: attempt if you can eliminate >=1 option (EV +0.222 with 1 eliminated, +0.667 with 2 eliminated); random guess EV = 0.00 = E; blank EV = -0.333. Never leave a circle blank."
