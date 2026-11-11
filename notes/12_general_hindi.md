@@ -12,7 +12,7 @@
 | Samas | Pehchan | Udaharan |
 |---|---|---|
 | **Tatpurush** | Dusre pad pradhana; vibhakti lupt | राजकुमार (राजा का कुमार), गृहप्रवेश |
-| **Karmadharaya** | Visheshan + visheshya | नीलकंठ, महात्मा |
+| **Karmadharaya** | Visheshan + visheshya | महात्मा | (Neelkanth Bahuvrihi hai — §12.2 neeche dekho; bank key sudhar ke saath mel khata hai, register §C)
 | **Dvandva** | Dono pad pradhana; 'aur' | माता-पिता, रात-दिन |
 | **Bahuvrihi** | Teesra arth pradhana | दशानन (रावण), चक्रपाणि (विष्णु) |
 | **Dvigu** | Pehla pad sankhya | त्रिभुवन, पंचवटी |

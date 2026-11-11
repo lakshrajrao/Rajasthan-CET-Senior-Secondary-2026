@@ -246,3 +246,8 @@ RSSB Advt 08/2026 summaries (Testbook, Schools360, GovtJobsAlert); RSSB press no
 - **Pilot samples (audited PASS, see `samples/SAMPLE_AUDIT.md`):** History — Integration of Rajasthan; Science — Blood groups & transfusion. Both follow A–K; both fact-checked against sources; two minor issues found and fixed in the audit.
 - **MCQ pilot (60 rows, new §4 format):** all 24 History + all 36 Science bank rows rewritten with WHY-correct / WHY-others-wrong / concept / memory connection / source. Automated checks re-run after the pilot: **0 FAILs**; combined = per-subject CSVs still in sync.
 - **Still pending (rollout after sample audit):** remaining 11 subject notes to A–K structure; remaining 240 bank MCQs + 360 mock explanations to the §4 format; master notes to A–K structure. Recorded in `LEARNING_METHODOLOGY.md` §8.
+
+## Rollout progress — 11 Nov 2026 (batches 1–2 done)
+- **Batch 1 (bank): DONE** — remaining 240 bank explanations rewritten in the §4 format; all 300 bank rows now conform. **Batch 2 (mocks): DONE** — all 360 mock explanations rewritten. Automated checks re-run: **0 FAILs**; combined = per-subject CSVs in sync; 0 key-explanation mismatches. See register §L for the corrections found (incl. Neelkanth notes fix; P1 Q100/P2 Q103 date errors; B4 flags 2–3 refuted by PYQ dataset subtopics).
+- **Batch 3 (notes): 2 of 11 done** — Art & Culture (10 chapters) and Geography of Rajasthan (12 chapters) redesigned to A–K and committed. Remaining 9: Geo India, Polity, Economy, Reasoning/Maths, CA, Public Health, Computer, Hindi, English (History + Science notes still need their remaining topics beyond the sample chapters).
+- **Batch 4 (master notes + tracker): pending.**
